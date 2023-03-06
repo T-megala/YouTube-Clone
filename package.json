@@ -1,0 +1,81 @@
+{
+  "name": "react-starter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@laufire/resist": "^0.0.5",
+    "@laufire/utils": "^2.9.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test ",
+    "eject": "react-scripts eject",
+    "test-dev": "react-scripts test --watchAll=false",
+    "test-ci": "npm run test-dev -- --coverage",
+    "lint": "npx eslint ."
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "./src/**/*.js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "./src/index.js",
+      "./src/reportWebVitals.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    },
+    "restoreMocks": true
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "eslint": "^7.29.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "sass": "^1.54.5"
+  },
+  "main": "index.js",
+  "license": "ISC",
+  "description": "Project description.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laufire/react-starter.git"
+  },
+  "author": "Laufire Technologies",
+  "bugs": {
+    "url": "https://github.com/Laufire/react-starter/issues"
+  },
+  "homepage": "https://laufire.github.io/",
+  "keywords": [
+    "simple",
+    "react",
+    "starter",
+    "boilerplate",
+    "template",
+    "resist"
+  ]
+}
