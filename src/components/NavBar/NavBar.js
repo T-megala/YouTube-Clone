@@ -1,3 +1,4 @@
+import { Menu } from '@mui/icons-material';
 import React from 'react';
 import Logo from './Logo';
 import More from './More';
@@ -7,7 +8,10 @@ import VoiceSearch from './VoiceSearch';
 
 const NavBar = () =>
 	<div className="navBar">
-		<Logo/>
+		<div className="navLeft">
+			<Menu/>
+			<Logo/>
+		</div>
 		<SearchBar/>
 		<VoiceSearch/>
 		<div className="optAndSignIn">

@@ -9,9 +9,9 @@ const App = (context) => {
 	const extendedContext = { ...context, sideBar };
 
 	return <div className="App">
+		<NavBar/>
 		<Index { ...extendedContext }/>
 		<VideoDetails/>
-		<NavBar/>
 	</div>;
 };
 

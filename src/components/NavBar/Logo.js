@@ -6,7 +6,7 @@ const Logo = () =>
 		<img
 			src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuE54d8krphaVP1AQ1Jd4G1uRqLcA2N81TnA&usqp=CAU"
 			alt="img"
-			height="30px"
+			height="25px"
 		/></div>;
 
 export default Logo;
