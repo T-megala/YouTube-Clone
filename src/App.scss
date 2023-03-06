@@ -1,7 +1,37 @@
 .App {
 	text-align: center;
+}
 
-	button {
-		font-weight: bold;
-	}
+.navBar {
+	display: flex;
+	margin-top: 3%;
+	align-items: center;
+}
+
+.textField {
+	margin-left: 15%;
+	align-items: center;
+}
+
+.logo{
+	width: 20%;
+	margin-left: 5%;
+}
+
+.searchIcon {
+	position: absolute;
+}
+
+.voiceSearch {
+	position: absolute;
+}
+
+.moreButton {
+	position: absolute;
+	left: 60%;
+}
+
+.optAndSignIn {
+	width: 15%;
+	margin-left: 0%;
 }

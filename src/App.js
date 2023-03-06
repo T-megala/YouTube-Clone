@@ -1,9 +1,10 @@
 import { React } from 'react';
 import './App.scss';
+import NavBar from './components/NavBar/NavBar';
 
 const App = () =>
 	<div className="App">
-		Ready to start.
+		<NavBar/>
 	</div>;
 
 export default App;
