@@ -2,10 +2,10 @@ import React from 'react';
 import SignIn from './SignIn';
 import More from './More';
 
-const NavRight = () =>
+const Right = () =>
 	<div className="navRight">
 		<More/>
 		<SignIn/>
 	</div>;
 
-export default NavRight;
+export default Right;

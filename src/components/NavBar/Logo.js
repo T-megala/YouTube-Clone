@@ -8,6 +8,7 @@ const Logo = () =>
 			alt="img"
 			height="25px"
 			width="100px"
-		/></div>;
+		/>
+	</div>;
 
 export default Logo;

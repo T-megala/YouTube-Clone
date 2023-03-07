@@ -5,8 +5,8 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 const More = () =>
 	<Button
 		sx={ { color: 'black' } }
-		startIcon={ <MoreVertIcon/> }
 		size="xlarge"
+		startIcon={ <MoreVertIcon/> }
 	/>;
 
 export default More;

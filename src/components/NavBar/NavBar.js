@@ -1,13 +1,13 @@
 import React from 'react';
-import NavCenter from './NavCenter';
-import NavLeft from './NavLeft';
-import NavRight from './NavRight';
+import Center from './Center';
+import Left from './Left';
+import Right from './Right';
 
 const NavBar = () =>
 	<div className="navBar">
-		<NavLeft/>
-		<NavCenter/>
-		<NavRight/>
+		<Left/>
+		<Center/>
+		<Right/>
 	</div>;
 
 export default NavBar;

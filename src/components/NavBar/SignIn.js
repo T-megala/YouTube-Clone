@@ -7,7 +7,8 @@ const SignIn = () =>
 		<Button
 			size="xlarge"
 			startIcon={ <AccountCircleOutlined/> }
-		>Sign In</Button>
+		>Sign In
+		</Button>
 	</div>;
 
 export default SignIn;
