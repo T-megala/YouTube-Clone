@@ -8,11 +8,12 @@ import NavBar from './components/NavBar/NavBar';
 const App = (context) => {
 	const extendedContext = { ...context, sideBar };
 
-	return <div className="App">
-		<NavBar/>
-		<Index { ...extendedContext }/>
-		<VideoDetails/>
-	</div>;
+	return (
+		<div className="App">
+			<NavBar/>
+			<Index { ...extendedContext }/>
+			<VideoDetails/>
+		</div>);
 };
 
 export default App;

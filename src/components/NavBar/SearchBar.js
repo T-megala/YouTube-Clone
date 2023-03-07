@@ -1,20 +1,16 @@
-import { Button, TextField } from '@mui/material';
+import { TextField } from '@mui/material';
 import React from 'react';
-import SearchIcon from '@mui/icons-material/Search';
 
 const SearchBar = () =>
 	<div className="textField">
 		<TextField
+			sx={ { width: '100%' } }
 			placeholder="Search..."
 			size="small"
 			onClick={ () => {} }
 		>Search
 		</TextField>
-		<span className="searchIcon">
-			<Button
-				endIcon={ <SearchIcon/> }
-			/>
-		</span>
+
 	</div>;
 
 export default SearchBar;

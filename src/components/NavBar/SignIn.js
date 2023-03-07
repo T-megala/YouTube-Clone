@@ -1,16 +1,13 @@
 import { Button } from '@mui/material';
 import React from 'react';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import { AccountCircleOutlined } from '@mui/icons-material';
 
 const SignIn = () =>
-	<div style={ { display: 'inline-block' } }>
+	<div>
 		<Button
-			sx={ { marginLeft: '10%',
-				position: 'absolute',
-				top: '7%' } }
 			size="xlarge"
-			startIcon={ <AccountCircleIcon/> }
-		>SignIn</Button>
+			startIcon={ <AccountCircleOutlined/> }
+		>Sign In</Button>
 	</div>;
 
 export default SignIn;

@@ -1,16 +1,27 @@
 .App {
 	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+.navCenter {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
 }
 
 .navBar {
 	display: flex;
 	align-items: center;
 	height: 65px;
+	width: 100%;
+	justify-content: space-between;
 }
 
 .textField {
-	margin-left: 15%;
-	align-items: center;
+	border: 1px solid ;
+	width:70%;
 }
 
 .logo{
@@ -19,34 +30,16 @@
 	margin-left: 5%;
 }
 
-.searchIcon {
-	position: absolute;
-}
-
-.voiceSearch {
-	position: absolute;
-}
-
-
 .navLeft{
 	display: flex;
 	flex-direction: row;
 	margin-left: 3%;
 }
 
-.navCenter{
+.navRight {
 	display: flex;
 	flex-direction: row;
-}
-
-.moreButton {
-	position: absolute;
-	left: 60%;
-}
-
-.optAndSignIn {
-	width: 15%;
-	margin-left: 0%;
+	width: 13%;
 }
 
 .sideBar{
@@ -54,7 +47,7 @@
 	overflow: hidden;
 	display: flex;
 	flex-wrap: wrap;
-	width: 17%;
+	width: 18%;
 	justify-content: center;
 }
 
@@ -69,22 +62,23 @@
 
 .text{
 	margin-left: 20%;
-}
+	}
 
 .container {
 	display: flex;
+	position: absolute;
+	top: 20%;
+	left:20%;
 	flex-direction: column;
 	gap: 4vh;
 	width: 82%;
-	margin-left: 18%;
 	background-color: black;
 }
 
 .block-1 , .block-2{
 	display: flex;
 	flex-direction: row;
-	height: (100vh)/4;
-	gap: 4vh;
+ 	gap: 4vh;
 }
 
 .box-1 , .box-2 , .box-3 , .box-4 , .box-5 , .box-6 {
