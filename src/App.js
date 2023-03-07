@@ -3,10 +3,10 @@ import './App.scss';
 import Index from './components/SideBar';
 import VideoDetails from './components/VideoDetails';
 
-const App = () =>
+const App = (context) =>
 	<div className="App">
 		<Index/>
-		<VideoDetails/>
+		<VideoDetails { ...context }/>
 	</div>;
 
 export default App;
