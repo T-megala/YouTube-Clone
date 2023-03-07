@@ -81,31 +81,30 @@
 	background-color: white;
 }
 
-
 .box-1 {
 	display:flex;
 	flex-wrap: wrap;
-	justify-content: center;
 	align-items:center;
-	height: 230px;
-	width: 25%;
-	background-color:plum;
+	height: 200px;
+	width: 28%;
 	border:2px solid;
+	border-radius: 5%;
 }
 
 .video {
 	background-color: wheat;
 	height: 70%;
 	width: 100%;
+	border-radius: 7% 7% 0% 0%;
 }
 
 .channel {
 	display : flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-  background-color: grey;
 	height: 30%;
 	width: 100%;
+	border-radius: 0% 0% 7% 7%;
 }
 
 .channelIcon {
@@ -120,14 +119,14 @@
 	width: 80%;
 	word-wrap: break-word;
 	overflow-y: hidden;
+	margin-left: 20%;
+	margin-top:-4%;
 }
-
 
 .videoName {
 	height: 70%;
 	width: 100%;
 }
-
 
 .channelName {
 	height: 70%;

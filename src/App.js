@@ -1,7 +1,7 @@
 import { React } from 'react';
 import './App.scss';
 import SideBar from './components/SideBar/SideBar';
-import VideoDetails from './components/VideoDetails';
+import VideoCard from './components/VideoCard/VideoCard';
 import NavBar from './components/NavBar/NavBar';
 import sideBar from './Data/sideBar';
 
@@ -12,7 +12,7 @@ const App = (context) => {
 		<div className="App">
 			<NavBar/>
 			<SideBar { ...extendedContext }/>
-			<VideoDetails { ...extendedContext }/>
+			<VideoCard { ...extendedContext }/>
 		</div>);
 };
 
