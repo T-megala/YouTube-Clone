@@ -4,7 +4,7 @@ import Logo from './Logo';
 
 const NavLeft = () =>
 	<div className="navLeft">
-		<Menu/>
+		<Menu sx={ { marginLeft: '-15px' } }/>
 		<Logo/>
 	</div>;
 
