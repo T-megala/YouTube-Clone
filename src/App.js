@@ -1,9 +1,9 @@
 import { React } from 'react';
 import './App.scss';
 import Index from './components/SideBar';
-import sideBar from './Data/sideBar';
 import VideoDetails from './components/VideoDetails';
 import NavBar from './components/NavBar/NavBar';
+import sideBar from './Data/sideBar';
 
 const App = (context) => {
 	const extendedContext = { ...context, sideBar };
@@ -12,7 +12,7 @@ const App = (context) => {
 		<div className="App">
 			<NavBar/>
 			<Index { ...extendedContext }/>
-			<VideoDetails/>
+			<VideoDetails { ...extendedContext }/>
 		</div>);
 };
 
