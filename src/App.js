@@ -1,6 +1,6 @@
 import { React } from 'react';
 import './App.scss';
-import Index from './components/SideBar';
+import SideBar from './components/SideBar/SideBar';
 import VideoDetails from './components/VideoDetails';
 import NavBar from './components/NavBar/NavBar';
 import sideBar from './Data/sideBar';
@@ -11,7 +11,7 @@ const App = (context) => {
 	return (
 		<div className="App">
 			<NavBar/>
-			<Index { ...extendedContext }/>
+			<SideBar { ...extendedContext }/>
 			<VideoDetails { ...extendedContext }/>
 		</div>);
 };
