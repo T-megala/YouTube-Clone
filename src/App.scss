@@ -92,7 +92,7 @@
 	gap: 12vh;
 	width: 82%;
 	position: absolute;
-	top: 12%;
+	top: 25%;
 	left:18%;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -151,6 +151,14 @@
 	display:inline-block;
 	width: 50px;
 	font-size:x-small;
+}
+
+.filterContent {
+	width: 80%;
+}
+
+.filterTab {
+	width: 100%;
 }
 
 .time {

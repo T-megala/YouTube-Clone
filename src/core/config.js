@@ -74,6 +74,24 @@ const config = {
 			time: '1 year ago',
 		},
 	],
+	categories: [
+		'All',
+		'Gaming',
+		'Computer Programming',
+		'Music',
+		'AI',
+		'GAdgets',
+		'Naruto',
+		'Podcasts',
+		'News',
+		'Business',
+		'Video editing',
+		'Sales',
+		'Cinema',
+		'Avengers',
+		'Anime',
+		'Attack on Titan',
+	],
 };
 
 export default config;
