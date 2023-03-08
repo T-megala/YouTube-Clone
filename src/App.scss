@@ -82,12 +82,9 @@
 }
 
 .box-1 {
-	display:flex;
-	flex-wrap: wrap;
 	align-items:center;
-	height: 200px;
-	width: 28%;
-	border:2px solid;
+	height: 230px;
+	width: 350px;
 	border-radius: 5%;
 }
 
@@ -95,13 +92,10 @@
 	background-color: wheat;
 	height: 70%;
 	width: 100%;
-	border-radius: 7% 7% 0% 0%;
+	border-radius: 10% ;
 }
 
 .channel {
-	display : flex;
-	flex-wrap: wrap;
-	flex-direction: row;
 	height: 30%;
 	width: 100%;
 	border-radius: 0% 0% 7% 7%;
@@ -113,18 +107,16 @@
 }
 
 .description{
-	display: flex;
-	flex-wrap:wrap ;
 	height: 95%;
 	width: 80%;
 	word-wrap: break-word;
 	overflow-y: hidden;
 	margin-left: 20%;
-	margin-top:-4%;
+	margin-top:-1%;
 }
 
 .videoName {
-	height: 70%;
+	height: 44%;
 	width: 100%;
 }
 
