@@ -3,9 +3,9 @@ import Center from './Center';
 import Left from './Left';
 import Right from './Right';
 
-const NavBar = () =>
+const NavBar = (context) =>
 	<div className="navBar">
-		<Left/>
+		<Left { ...context }/>
 		<Center/>
 		<Right/>
 	</div>;

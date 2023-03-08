@@ -1,10 +1,11 @@
 import React from 'react';
+import ShrinkSideBar from './ShrinkSideBar';
 
 const SideBar = (context) => {
-	const { sideBar } = context;
+	const { state: { burgerMenu }, sideBar } = context;
 
-	return (
-		<div className="sideBar">
+	return burgerMenu
+		? <div className="sideBar">
 			{sideBar.map((category, i) =>
 				<div
 					Key={ i }
@@ -15,7 +16,8 @@ const SideBar = (context) => {
 						{category.text}
 					</div>
 				</div>)}
-		</div>);
+		</div>
+		: <ShrinkSideBar/> ;
 };
 
 export default SideBar;

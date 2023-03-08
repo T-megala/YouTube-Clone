@@ -2,9 +2,9 @@ import React from 'react';
 import BurgerMenu from './BurgerMenu';
 import Logo from './Logo';
 
-const Left = () =>
+const Left = (context) =>
 	<div className="navLeft">
-		<BurgerMenu/>
+		<BurgerMenu { ...context }/>
 		<Logo/>
 	</div>;
 

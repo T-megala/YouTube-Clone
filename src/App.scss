@@ -5,22 +5,27 @@
 
 .navBar {
 	display: flex;
+	position: sticky;
+	top: 0;
 	align-items: center;
 	height: 65px;
 	width: 100%;
 	justify-content: space-between;
+	z-index: 1;
+	background-color: white;
 }
 
 .navLeft{
 	display: flex;
 	flex-direction: row;
-	margin-left: 3%;
+	margin-left: 2%;
+	align-items: center;
 }
 
 .logo{
 	height:18%;
 	width: 20%;
-	margin-left: 25%;
+	margin-left: -14%;
 }
 
 .navCenter {
@@ -53,6 +58,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	width: 18%;
+
 	justify-content: center;
 }
 
@@ -69,6 +75,18 @@
 	margin-left: 20%;
 	}
 
+	.shrinkSideBar{
+		width: 5%;
+	}
+
+	.__shrinkSideBar{
+	margin-left: 3px;
+	padding: 4%;
+	width: 100%;
+	height: 22%;
+	margin-bottom: 4px;
+}
+
 .container {
 	display: flex;
 	gap: 12vh;
@@ -84,13 +102,13 @@
 .box-1 {
 	align-items:center;
 	height: 230px;
-	width: 350px;
+	width: 280px;
 	border-radius: 5%;
 }
 
 .video {
 	background-color: wheat;
-	height: 74%;
+	height: 64%;
 	width: 100%;
 	overflow: hidden;
 	border-radius: 10% ;
@@ -124,7 +142,7 @@
 }
 
 .channelName {
-	margin-top: -7%;
+	margin-top: -3%;
 	width: 100%;
 	font-size: small;
 }
