@@ -1,4 +1,4 @@
-/* eslint-disable indent */
+/* eslint-disable max-lines-per-function */
 import { Tab, Tabs } from '@mui/material';
 import React from 'react';
 
@@ -10,8 +10,17 @@ const FilterTab = (context) => {
 			<Tabs
 				variant="scrollable"
 				scrollButtons="auto"
-			>{categories.map((category, i) =>
-				<Tab key={ i } label={ category }/>)}
+			>{
+					categories.map((category, i) =>
+						<Tab
+							key={ i }
+							sx={ { backgroundColor: 'rgb(231, 221,291)',
+								marginLeft: '20px',
+								borderRadius: '20% ',
+								height: '50px' } }
+							label={ category }
+						/>)
+				}
 			</Tabs>
 		</div>
 	);
