@@ -3,17 +3,17 @@ import Channel from './Channel';
 import Video from './Video';
 
 const VideoCard = (context) => {
-	const { config: { test }} = context;
+	const { config: { cardDetails }} = context;
 
 	return (
 		<div className="container">
-			{test.map((text, key) =>
+			{cardDetails.map((detail, key) =>
 				<div
 					key={ key }
 					className="box-1"
 				>
-					<Video { ...{ ...context, data: text } }/>
-					<Channel { ...context }/>
+					<Video { ...{ ...context, data: detail } }/>
+					<Channel { ...{ ...context, data: detail } }/>
 				</div>)}
 		</div>);
 };

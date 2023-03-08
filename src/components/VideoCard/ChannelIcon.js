@@ -1,14 +1,14 @@
 /* eslint-disable max-len */
+import { Avatar } from '@mui/material';
 import React from 'react';
 
-const ChannelIcon = () =>
+const ChannelIcon = ({ data: detail }) =>
 	<div className="channelIcon">
-		<img
-			src="https://yt3.googleusercontent.com/ytc/AL5GRJVuzBC-SmKTokJ760C50edNgV2ezGmDphiqwFhAEg=s900-c-k-c0x00ffffff-no-rj"
+		<Avatar
 			alt="icon"
-			height="50px"
-			width="50px"
+			src={ detail.icon }
 		/>
+
 	</div>;
 
 export default ChannelIcon;

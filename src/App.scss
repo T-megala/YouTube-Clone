@@ -90,13 +90,16 @@
 
 .video {
 	background-color: wheat;
-	height: 70%;
+	height: 74%;
 	width: 100%;
+	overflow: hidden;
 	border-radius: 10% ;
 }
 
 .channel {
-	height: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	height: 50%;
 	width: 100%;
 	border-radius: 0% 0% 7% 7%;
 }
@@ -121,7 +124,19 @@
 }
 
 .channelName {
-	height: 70%;
+	margin-top: -7%;
 	width: 100%;
+	font-size: small;
 }
 
+.views {
+	display:inline-block;
+	width: 50px;
+	font-size:x-small;
+}
+
+.time {
+	display: inline-block;
+	width: max-content;
+	font-size:x-small;
+}
