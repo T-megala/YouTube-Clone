@@ -3,7 +3,7 @@ import SignIn from './SignIn';
 import More from './More';
 
 const Right = () =>
-	<div className="navRight">
+	<div className="nav-Right">
 		<More/>
 		<SignIn/>
 	</div>;

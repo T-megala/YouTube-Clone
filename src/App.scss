@@ -1,56 +1,48 @@
 .App {
-	display: flex;
-	flex-wrap: wrap;
 }
 
 .navBar {
-	display: flex;
-	position: sticky;
-	top: 0;
-	align-items: center;
-	height: 65px;
-	width: 100%;
-	justify-content: space-between;
-	z-index: 1;
-	background-color: white;
+	padding-top: 7px ;
 }
 
-.navLeft{
+.nav-left:first-child{
+	margin-right: auto;
+}
+
+.navBar, .nav-left , .nav-Center , .nav-Right{
 	display: flex;
-	flex-direction: row;
-	margin-left: 2%;
 	align-items: center;
 }
 
-.logo{
-	height:18%;
-	width: 20%;
-	margin-left: -14%;
+.nav-Center {
+	flex: 0.6;
 }
 
-.navCenter {
-	display: flex;
-	flex-direction: row;
-	width: 50%;
-	justify-content: center;
-	align-items: center;
+.nav-Right:last-child{
+	padding-right: 25px;
+	margin-left: auto;
+}
+
+.searchBar .MuiOutlinedInput-root , .signIn .MuiOutlinedInput-root{
+	border-radius: 50px 0 0 50px;
+}
+
+.signIn{
+border: 1px solid;
 }
 
 .searchBar {
-	border: 1px solid ;
-	width:70%;
+	flex: 0.9;
+	border: 1px solid;
 }
 
 .searchButton {
-	border: 1px solid black;
-	height: 40px;
+	flex: 0.1;
+	height: 3em;
+	border-radius: 0 50px 50px 0;
+	border: 1px solid #d3d3d3;
 }
 
-.navRight {
-	display: flex;
-	flex-direction: row;
-	width: 13%;
-}
 
 .filterContent {
 	width: 81%;
@@ -71,8 +63,8 @@
 }
 
 .sideBar{
-	display: inline;
 	overflow-y: hidden;
+	overflow: hidden;
 	display: flex;
 	position: sticky;
 	overflow-y: scroll;

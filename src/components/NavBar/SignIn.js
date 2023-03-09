@@ -3,12 +3,17 @@ import React from 'react';
 import { AccountCircleOutlined } from '@mui/icons-material';
 
 const SignIn = () =>
-	<div>
-		<Button
-			size="xlarge"
-			startIcon={ <AccountCircleOutlined/> }
-		>Sign In
-		</Button>
-	</div>;
+	<Button
+		variant="outlined"
+		sx={ {
+			':hover': {
+				bgcolor: '#8ec2ef',
+			},
+			'borderRadius': '50px ',
+		} }
+		size="xlarge"
+		startIcon={ <AccountCircleOutlined/> }
+	>Sign In
+	</Button>;
 
 export default SignIn;

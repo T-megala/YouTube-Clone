@@ -2,14 +2,12 @@ import { TextField } from '@mui/material';
 import React from 'react';
 
 const SearchBar = () =>
-	<div className="searchBar">
-		<TextField
-			sx={ { width: '100%' } }
-			placeholder="Search..."
-			size="small"
-			onClick={ () => {} }
-		>Search
-		</TextField>
-	</div>;
+	<TextField
+		className="searchBar"
+		placeholder="Search..."
+		size="small"
+		onClick={ () => {} }
+	>Search
+	</TextField>;
 
 export default SearchBar;

@@ -4,7 +4,7 @@ const config = {
 		{
 			img: '/image/9.jpeg',
 			icon: '/channelIcon/2.jpeg',
-			videoName: 'Best Youtube Thumbnail of 2022',
+			videoName: 'Best Youtube Thumbnail of 2022 ',
 			channelName: 'Tamil TechLancer',
 			views: '45K views',
 			time: '1 year ago',

@@ -8,10 +8,6 @@ const BurgerMenu = (context) => {
 	return (
 		<Button>
 			<Menu
-				sx={ {
-					marginLeft: '-40px',
-					color: 'black',
-				} }
 				onClick={ () => setState({
 					...state,
 					burgerMenu: !burgerMenu,

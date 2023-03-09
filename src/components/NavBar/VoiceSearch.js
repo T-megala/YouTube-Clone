@@ -4,8 +4,7 @@ import MicIcon from '@mui/icons-material/Mic';
 
 const VoiceSearch = () =>
 	<Button
-		sx={ { paddingLeft: '5%',
-			color: 'black' } }
+		sx={ { color: 'black' } }
 		size="xlarge"
 		startIcon={ <MicIcon/> }
 	/>;
