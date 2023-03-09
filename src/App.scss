@@ -52,13 +52,31 @@
 	width: 13%;
 }
 
-.sideBar{
-	display: inline;
-	overflow: hidden;
+.filterContent {
+	width: 81%;
+}
+
+.filterTab {
 	display: flex;
+	flex-direction: row;
+	position: sticky;
+	top: 9%;
+	background-color: white;
+	width: 100%;
+}
+
+::-webkit-scrollbar{
+	width:5px;
+	background-color: red
+}
+
+.sideBar{
+	display: flex;
+	position: sticky;
+	overflow-y: scroll;
+	flex-direction: column;
 	flex-wrap: wrap;
 	width: 18%;
-
 	justify-content: center;
 }
 
@@ -145,14 +163,6 @@
 	display:inline-block;
 	width: 50px;
 	font-size:x-small;
-}
-
-.filterContent {
-	width: 80%;
-}
-
-.filterTab {
-	width: 100%;
 }
 
 .time {
