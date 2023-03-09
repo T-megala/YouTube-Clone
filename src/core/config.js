@@ -12,7 +12,7 @@ const config = {
 		{
 			img: '/image/8.jpeg',
 			icon: '/channelIcon/1.jpeg',
-			videoName: 'Make Professional Youtube Thumbnails',
+			videoName: 'Make Professional Youtube Thumbnail',
 			channelName: 'Tamil TechLancer',
 			views: '19K views',
 			time: '5 days ago',
