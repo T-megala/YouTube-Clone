@@ -54,7 +54,7 @@
 
 .sideBar{
 	display: inline;
-	overflow: hidden;
+	overflow-y: hidden;
 	display: flex;
 	flex-wrap: wrap;
 	width: 18%;
@@ -137,8 +137,13 @@
 }
 
 .videoName {
-	height: 44%;
+	display:flex;
+	text-overflow: ellipsis;
+	overflow: hidden;
 	width: 100%;
+	max-height:  30%;
+	line-height: 125%;
+	font-size: 88%;
 }
 
 .channelName {
