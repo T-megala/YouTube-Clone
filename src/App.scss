@@ -2,7 +2,11 @@
 }
 
 .navBar {
-	padding-top: 7px ;
+	position: sticky;
+	height: 10vh;
+	top: 0;
+	background-color: white;
+	z-index: 100;
 }
 
 .nav-left:first-child{
@@ -19,30 +23,33 @@
 }
 
 .nav-Right:last-child{
-	padding-right: 25px;
+	margin-right: 20px;
 	margin-left: auto;
 }
 
-.searchBar .MuiOutlinedInput-root , .signIn .MuiOutlinedInput-root{
+.searchBar .MuiOutlinedInput-root {
 	border-radius: 50px 0 0 50px;
 }
 
-.signIn{
+.signIn, .searchBar{
 border: 1px solid;
 }
 
 .searchBar {
-	flex: 0.9;
-	border: 1px solid;
+	flex: 1;
 }
 
 .searchButton {
-	flex: 0.1;
+	flex: 0.08;
 	height: 3em;
 	border-radius: 0 50px 50px 0;
 	border: 1px solid #d3d3d3;
 }
 
+.container, .sideBar, .sideBar_category{
+	display: flex;
+	height: 90vh;
+}
 
 .filterContent {
 	width: 81%;
@@ -63,28 +70,23 @@ border: 1px solid;
 }
 
 .sideBar{
-	overflow-y: hidden;
-	overflow: hidden;
-	display: flex;
-	position: sticky;
-	overflow-y: scroll;
+	flex: 0.2;
 	flex-direction: column;
-	flex-wrap: wrap;
-	width: 18%;
-	justify-content: center;
+	overflow-y: scroll ;
 }
 
-.categoryBar{
-	display: flex;
-	width: 80%;
-	padding: 4%;
-	border-radius: 15% ;
+.sideBar_category{
+	padding: 7px;
 	align-items: center;
-	height: 30px;
 }
 
-.categoryText{
-	margin-left: 20%;
+.sideBar_icon{
+	margin-left: 12px;
+}
+
+
+.sideBar_text{
+	margin-left: 30px;
 	}
 
 	.shrinkSideBar{
@@ -99,16 +101,13 @@ border: 1px solid;
 	margin-bottom: 4px;
 }
 
-.container {
+.videoCard {
 	display: flex;
-	gap: 12vh;
-	width: 82%;
-	position: absolute;
-	top: 20%;
-	left:18%;
 	flex-wrap: wrap;
+	flex:0.8;
 	justify-content: space-evenly;
-	background-color: white;
+	overflow-y: scroll;
+	background-color: aqua;
 }
 
 .box-1 {

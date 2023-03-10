@@ -1,22 +1,12 @@
 import React from 'react';
+import ExtendedSideBar from './ExtendedSideBar';
 import ShrinkSideBar from './ShrinkSideBar';
 
 const SideBar = (context) => {
-	const { state: { burgerMenu }, sideBar } = context;
+	const { state: { burgerMenu }} = context;
 
 	return burgerMenu
-		? <div className="sideBar">
-			{sideBar.map((category, i) =>
-				<div
-					Key={ i }
-					className="categoryBar"
-				>
-					{category.icon}
-					<div className="categoryText">
-						{category.text}
-					</div>
-				</div>)}
-		</div>
+		? <ExtendedSideBar/>
 		: <ShrinkSideBar/> ;
 };
 

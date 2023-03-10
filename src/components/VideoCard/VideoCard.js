@@ -6,7 +6,7 @@ const VideoCard = (context) => {
 	const { config: { cardDetails }} = context;
 
 	return (
-		<div className="container">
+		<div className="videoCard">
 			{cardDetails.map((detail, key) =>
 				<div
 					key={ key }
