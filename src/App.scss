@@ -51,23 +51,16 @@ border: 1px solid;
 	height: 90vh;
 }
 
-.filterContent {
-	width: 81%;
-}
-
-.filterTab {
-	display: flex;
-	flex-direction: row;
+.filterContent{
+	overflow: hidden;
 	position: sticky;
-	top: 9%;
+	top: 0;
 	background-color: white;
-	width: 100%;
+	z-index: 90;
 }
 
-::-webkit-scrollbar{
-	width:5px;
-	background-color: red
-}
+
+
 
 .sideBar{
 	flex: 0.2;
@@ -101,13 +94,21 @@ border: 1px solid;
 	margin-bottom: 4px;
 }
 
-.videoCard {
+.videoCard , .videoCard_container{
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.videoCard {
 	flex:0.8;
-	justify-content: space-evenly;
 	overflow-y: scroll;
+}
+
+.videoCard_container{
+	margin-top: 20px;
+	justify-content: space-evenly;
 	background-color: aqua;
+
 }
 
 .box-1 {

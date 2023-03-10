@@ -1,7 +1,6 @@
 import { React, useState } from 'react';
 import './App.scss';
 import NavBar from './components/NavBar/NavBar';
-import FilterContent from './components/FilterContent/FilterContent';
 import Container from './components/Container';
 
 const initialState = {
@@ -15,7 +14,6 @@ const App = (context) => {
 	return (
 		<div className="App">
 			<NavBar { ...extendedContext }/>
-			<FilterContent { ...extendedContext }/>
 			<Container { ...extendedContext }/>
 		</div>);
 };
