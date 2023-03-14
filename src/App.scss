@@ -83,16 +83,24 @@ border: 1px solid;
 	}
 
 	.shrinkSideBar{
-		width: 5%;
+		position: sticky;
+		top: 0;
+		flex:0.05
 	}
 
 	.__shrinkSideBar{
-	margin-left: 3px;
-	padding: 4%;
-	width: 100%;
-	height: 22%;
-	margin-bottom: 4px;
+		display: flex;
+		flex-direction: column;
+		padding: 16%;
 }
+
+.shrinkBar__icon{
+margin-left: 5px;
+}
+
+.shrinkBar__text{
+	font-size: small;
+	}
 
 .videoCard , .videoCard_container{
 	display: flex;
@@ -107,7 +115,6 @@ border: 1px solid;
 .videoCard_container{
 	margin-top: 20px;
 	justify-content: space-evenly;
-	background-color: aqua;
 
 }
 
@@ -120,9 +127,6 @@ border: 1px solid;
 
 .video {
 	background-color: wheat;
-	height: 64%;
-	width: 100%;
-	overflow: hidden;
 	border-radius: 10% ;
 }
 
@@ -132,9 +136,6 @@ border: 1px solid;
 	border-radius: 0% 0% 7% 7%;
 }
 
-.channelIcon {
-	flex: 0.2;
-}
 
 .description{
 	display: flex;

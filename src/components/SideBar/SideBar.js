@@ -6,7 +6,7 @@ const SideBar = (context) => {
 	const { state: { burgerMenu }} = context;
 
 	return burgerMenu
-		? <ExtendedSideBar/>
+		? <ExtendedSideBar { ...context }/>
 		: <ShrinkSideBar/> ;
 };
 

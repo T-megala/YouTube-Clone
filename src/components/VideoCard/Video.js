@@ -5,6 +5,7 @@ const Video = ({ data: detail }) =>
 		<img
 			alt="thumbnail"
 			src={ detail.img }
+			height="180px"
 		/>
 	</div>;
 
