@@ -125,7 +125,7 @@ margin-left: 5px;
 	border-radius: 5%;
 }
 
-.video {
+.thumbnail {
 	background-color: wheat;
 	border-radius: 10% ;
 }
@@ -168,4 +168,9 @@ margin-left: 5px;
 	display: inline-block;
 	width: max-content;
 	font-size:x-small;
+}
+
+.videoContainer{
+  margin-left: 5%;
+	height: 75vh;
 }

@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import shrinkSideBar from '../../Data/shrinkSideBar';
 
 const ShrinkSideBar = () =>
-	<div className="shrinkSideBar">
-		{shrinkSideBar.map((bar, i) =>
+	<div className="shrinkSideBar">{
+		shrinkSideBar.map((bar, i) =>
 			<Link
 				key={ i }
 				to={ `/${ bar.text === 'Home' ? '' : bar.text }` }
@@ -13,7 +13,8 @@ const ShrinkSideBar = () =>
 			>
 				<span className="shrinkBar__icon">{bar.icon}</span>
 				<span className="shrinkBar__text">{bar.text}</span>
-			</Link>)}
+			</Link>)
+	}
 	</div>;
 
 export default ShrinkSideBar;

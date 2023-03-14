@@ -1,7 +1,8 @@
 import { React } from 'react';
+import { Link } from 'react-router-dom';
 import FilterContent from '../FilterContent/FilterContent';
 import Channel from './Channel';
-import Video from './Video';
+import Thumbnail from './Thumbnail';
 
 const VideoCard = (context) => {
 	const { config: { cardDetails }} = context;
@@ -12,13 +13,15 @@ const VideoCard = (context) => {
 			<FilterContent { ...context }/>
 			<div className="videoCard_container">
 				{cardDetails.map((detail, key) =>
-					<div
+					<Link
 						key={ key }
+						to={ `/video${ detail.id }` }
+						style={ { textDecoration: 'none', color: 'black' } }
 						className="box-1"
 					>
-						<Video { ...{ ...context, data: detail } }/>
+						<Thumbnail { ...{ ...context, data: detail } }/>
 						<Channel { ...{ ...context, data: detail } }/>
-					</div>)}
+					</Link>)}
 			</div>
 		</div>);
 };

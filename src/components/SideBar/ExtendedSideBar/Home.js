@@ -1,6 +1,6 @@
 import React from 'react';
-import Container from './Container';
-import NavBar from './NavBar/NavBar';
+import Container from '../../Container';
+import NavBar from '../../NavBar/NavBar';
 
 const Home = (context) =>
 	<div>

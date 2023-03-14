@@ -1,4 +1,4 @@
-import Home from '../components/Home';
+import Home from '../components/SideBar/ExtendedSideBar/Home';
 import BrowseChannels from
 	'../components/SideBar/ExtendedSideBar/BrowseChannels';
 import FashionBeauty from '../components/SideBar/ExtendedSideBar/FashionBeauty';
@@ -19,6 +19,7 @@ import Shorts from '../components/SideBar/ExtendedSideBar/Shorts';
 import Sport from '../components/SideBar/ExtendedSideBar/Sport';
 import Subscriptions from '../components/SideBar/ExtendedSideBar/Subscriptions';
 import Trending from '../components/SideBar/ExtendedSideBar/Trending';
+import Video from '../components/VideoCard/Video';
 
 const RoutesData = [
 	{
@@ -101,6 +102,8 @@ const RoutesData = [
 		path: '/Send feedback',
 		element: SendFeedback,
 	},
+	{ path: '/video123',
+		element: Video },
 
 ];
 

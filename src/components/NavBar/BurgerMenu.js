@@ -6,7 +6,7 @@ const BurgerMenu = (context) => {
 	const { state, state: { burgerMenu }, setState } = context;
 
 	return (
-		<Button>
+		<Button sx={ { color: 'black' } }>
 			<Menu
 				onClick={ () => setState({
 					...state,
