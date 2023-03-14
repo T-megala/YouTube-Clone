@@ -17,7 +17,7 @@ import News from './components/SideBar/ExtendedSideBar/News';
 import Sport from './components/SideBar/ExtendedSideBar/Sport';
 import Learning from './components/SideBar/ExtendedSideBar/Learning';
 import FashionBeauty from './components/SideBar/ExtendedSideBar/FashionBeauty';
-import { BrowseChannels } from './components/SideBar/ExtendedSideBar/BrowseChannels';
+import BrowseChannels from './components/SideBar/ExtendedSideBar/BrowseChannels';
 import Settings from './components/SideBar/ExtendedSideBar/Settings';
 import ReportHistory from './components/SideBar/ExtendedSideBar/ReportHistory';
 import Help from './components/SideBar/ExtendedSideBar/Help';
@@ -37,25 +37,25 @@ const App = (context) => {
 			<BrowserRouter>
 				<Routes>
 					<Route path="/" element={ <Home { ...extendedContext }/> }/>
-					<Route path="/shorts" element={ <Shorts/> }/>
-					<Route path="/Subscriptions" element={ <Subscriptions/> }/>
-					<Route path="/Library" element={ <Library/> }/>
-					<Route path="/History" element={ <History/> }/>
-					<Route path="/Trending" element={ <Trending/> }/>
-					<Route path="/Shopping" element={ <Shopping/> }/>
-					<Route path="/Music" element={ <Music/> }/>
-					<Route path="/Films" element={ <Films/> }/>
-					<Route path="/Live" element={ <Live/> }/>
-					<Route path="/Gaming" element={ <Gaming/> }/>
-					<Route path="/News" element={ <News/> }/>
-					<Route path="/Sport" element={ <Sport/> }/>
-					<Route path="/Learning" element={ <Learning/> }/>
-					<Route path="/Fashion & beauty" element={ <FashionBeauty/> }/>
-					<Route path="/Browse channels" element={ <BrowseChannels/> }/>
-					<Route path="/Settings" element={ <Settings/> }/>
-					<Route path="/Report history" element={ <ReportHistory/> }/>
-					<Route path="/Help" element={ <Help/> }/>
-					<Route path="/Send feedback" element={ <SendFeedback/> }/>
+					<Route path="/shorts" element={ <Shorts { ...extendedContext }/> }/>
+					<Route path="/Subscriptions" element={ <Subscriptions { ...extendedContext }/> }/>
+					<Route path="/Library" element={ <Library { ...extendedContext }/> }/>
+					<Route path="/History" element={ <History { ...extendedContext }/> }/>
+					<Route path="/Trending" element={ <Trending { ...extendedContext }/> }/>
+					<Route path="/Shopping" element={ <Shopping { ...extendedContext }/> }/>
+					<Route path="/Music" element={ <Music { ...extendedContext }/> }/>
+					<Route path="/Films" element={ <Films { ...extendedContext }/> }/>
+					<Route path="/Live" element={ <Live { ...extendedContext }/> }/>
+					<Route path="/Gaming" element={ <Gaming { ...extendedContext }/> }/>
+					<Route path="/News" element={ <News { ...extendedContext }/> }/>
+					<Route path="/Sport" element={ <Sport { ...extendedContext }/> }/>
+					<Route path="/Learning" element={ <Learning { ...extendedContext }/> }/>
+					<Route path="/Fashion & beauty" element={ <FashionBeauty { ...extendedContext }/> }/>
+					<Route path="/Browse channels" element={ <BrowseChannels { ...extendedContext }/> }/>
+					<Route path="/Settings" element={ <Settings { ...extendedContext }/> }/>
+					<Route path="/Report history" element={ <ReportHistory { ...extendedContext }/> }/>
+					<Route path="/Help" element={ <Help { ...extendedContext }/> }/>
+					<Route path="/Send feedback" element={ <SendFeedback { ...extendedContext }/> }/>
 				</Routes>
 			</BrowserRouter>
 		</div>
