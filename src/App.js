@@ -1,7 +1,7 @@
 import { React, useState } from 'react';
 import './App.scss';
 import { BrowserRouter } from 'react-router-dom';
-import RouteCategory from './components/RouteCategory';
+import Router from './components/Router';
 
 const initialState = {
 	burgerMenu: true,
@@ -14,7 +14,7 @@ const App = (context) => {
 	return (
 		<div className="App">
 			<BrowserRouter>
-				<RouteCategory { ...extendedContext }/>
+				<Router { ...extendedContext }/>
 			</BrowserRouter>
 		</div>
 
