@@ -6,6 +6,7 @@ const Thumbnail = ({ data: detail }) =>
 			alt="thumbnail"
 			src={ detail.img }
 			height="180px"
+			width="100%"
 		/>
 	</div>;
 

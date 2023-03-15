@@ -115,7 +115,6 @@ margin-left: 5px;
 .videoCard_container{
 	margin-top: 20px;
 	justify-content: space-evenly;
-
 }
 
 .box-1 {
@@ -127,7 +126,6 @@ margin-left: 5px;
 
 .thumbnail {
 	background-color: wheat;
-	border-radius: 10% ;
 }
 
 .channel {
@@ -136,7 +134,6 @@ margin-left: 5px;
 	border-radius: 0% 0% 7% 7%;
 }
 
-
 .description{
 	display: flex;
 	flex:0.8;
@@ -144,30 +141,44 @@ margin-left: 5px;
 }
 
 .videoName {
+	font-family: Arial, Helvetica, sans-serif;
 	display:flex;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	max-height: 30%;
 	line-height: 185%;
 	font-size: 90%;
+	font-weight: 500;
 }
 
 .channelName {
-	margin-top: -3%;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 1%;
 	width: 100%;
 	font-size: small;
+	font-weight: 300;
+}
+
+.viewsAndTime{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 2%;
 }
 
 .views {
 	display:inline-block;
-	width: 50px;
-	font-size:x-small;
+	width: -1px;
+	font-size:small;
+	font-weight: lighter;
 }
 
 .time {
 	display: inline-block;
 	width: max-content;
-	font-size:x-small;
+	margin-left: 10%;
+	font-size:small;
+	font-weight: 200;
 }
 
 .videoContainer{
