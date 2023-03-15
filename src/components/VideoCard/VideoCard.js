@@ -1,18 +1,19 @@
 import { React } from 'react';
 import { Link } from 'react-router-dom';
+import youtubeManager from '../../services/youtubeManager';
 import FilterContent from '../FilterContent/FilterContent';
 import Channel from './Channel';
 import Thumbnail from './Thumbnail';
 
 const VideoCard = (context) => {
-	const { config: { cardDetails }} = context;
+	const { state: { filters }} = context;
+	const filteredContent = youtubeManager.filter[filters](context);
 
 	return (
-
 		<div className="videoCard">
 			<FilterContent { ...context }/>
 			<div className="videoCard_container">
-				{cardDetails.map((detail, key) =>
+				{filteredContent.map((detail, key) =>
 					<Link
 						key={ key }
 						to={ `/video${ detail.id }` }

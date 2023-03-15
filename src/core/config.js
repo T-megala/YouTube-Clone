@@ -10,6 +10,7 @@ const config = {
 			views: '45K views',
 			time: '1 year ago',
 			id: 123,
+			category: 'videoEditing',
 		},
 		{
 			img: '/image/8.jpeg',
@@ -20,6 +21,7 @@ const config = {
 			views: '19K views',
 			time: '5 days ago',
 			id: 234,
+			category: 'videoEditing',
 		},
 		{
 			img: '/image/10.jpg',
@@ -30,6 +32,7 @@ const config = {
 			views: '78K views',
 			time: '58 minutes ago',
 			id: 345,
+			category: 'Music',
 		},
 		{
 			img: '/image/1.jpeg',
@@ -39,6 +42,7 @@ const config = {
 			views: '58K views',
 			time: '28 minutes ago',
 			id: 456,
+			category: 'Lifestyle',
 		},
 		{
 			img: '/image/12.jpg',
@@ -48,6 +52,7 @@ const config = {
 			views: '12K views',
 			time: '8 hours ago',
 			id: 567,
+			category: 'Lifestyle',
 		},
 		{
 			img: '/image/3.jpeg',
@@ -57,6 +62,7 @@ const config = {
 			views: '18K views',
 			time: '1 hour ago',
 			id: 678,
+			category: 'computerProgramming',
 		},
 		{
 			img: '/image/4.jpeg',
@@ -66,6 +72,7 @@ const config = {
 			views: '10K views',
 			time: '6 hours ago',
 			id: 789,
+			category: 'Music',
 		},
 
 		{
@@ -76,6 +83,7 @@ const config = {
 			views: '2K views',
 			time: '15 hours ago',
 			id: 910,
+			category: 'computerProgramming',
 		},
 		{
 			img: '/image/11.jpg',
@@ -85,12 +93,13 @@ const config = {
 			views: '45K views',
 			time: '1 year ago',
 			id: 101,
+			category: 'computerProgramming',
 		},
 	],
 	categories: [
 		'All',
 		'Gaming',
-		'Computer Programming',
+		'computerProgramming',
 		'Music',
 		'AI',
 		'GAdgets',
@@ -98,12 +107,13 @@ const config = {
 		'Podcasts',
 		'News',
 		'Business',
-		'Video editing',
+		'videoEditing',
 		'Sales',
 		'Cinema',
 		'Avengers',
 		'Anime',
 		'Attack on Titan',
+		'Lifestyle',
 	],
 };
 
