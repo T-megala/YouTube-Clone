@@ -3,7 +3,7 @@ const config = {
 	cardDetails: [
 		{
 			img: '/image/9.jpeg',
-			video: '/video/testVc.mp4',
+			video: '/video/VidEditing.mp4',
 			icon: '/channelIcon/2.jpeg',
 			videoName: 'Best Youtube Thumbnail of 2022 ',
 			channelName: 'Tamil TechLancer',
@@ -14,7 +14,7 @@ const config = {
 		},
 		{
 			img: '/image/8.jpeg',
-			video: '/video/testVc.mp4',
+			video: '/video/Drawing.mp4',
 			icon: '/channelIcon/1.jpeg',
 			videoName: 'Make Professional Youtube Thumbnail',
 			channelName: 'Tamil TechLancer',
@@ -25,7 +25,7 @@ const config = {
 		},
 		{
 			img: '/image/10.jpg',
-			video: '/video/testVc.mp4',
+			video: '/video/Music.mp4',
 			icon: '/channelIcon/2.jpeg',
 			videoName: 'Relax your mind',
 			channelName: 'Isha',
@@ -36,6 +36,7 @@ const config = {
 		},
 		{
 			img: '/image/1.jpeg',
+			video: '/video/space.mp4',
 			icon: '/channelIcon/1.jpeg',
 			videoName: 'Six ways to Use Time Efficiently',
 			channelName: 'TimeX',
@@ -46,6 +47,7 @@ const config = {
 		},
 		{
 			img: '/image/12.jpg',
+			video: '/video/Beach.mp4',
 			icon: '/channelIcon/2.jpeg',
 			videoName: 'Natural Beauty',
 			channelName: 'MotherNature',
@@ -56,6 +58,7 @@ const config = {
 		},
 		{
 			img: '/image/3.jpeg',
+			video: '/video/hacking.mp4',
 			icon: '/channelIcon/3.jpeg',
 			videoName: 'Master HTML and CSS ',
 			channelName: 'AstroX',
@@ -66,6 +69,7 @@ const config = {
 		},
 		{
 			img: '/image/4.jpeg',
+			video: '/video/mall.mp4',
 			icon: '/channelIcon/1.jpeg',
 			videoName: 'Evergreen Songs 2022',
 			channelName: 'Isaimini',
@@ -77,6 +81,7 @@ const config = {
 
 		{
 			img: '/image/7.jpg',
+			video: '/video/seoul.mp4',
 			icon: '/channelIcon/3.jpeg',
 			videoName: '10 Best Windows Background',
 			channelName: 'VP Tube',
@@ -87,6 +92,7 @@ const config = {
 		},
 		{
 			img: '/image/11.jpg',
+			video: '/video/testVc.mp4',
 			icon: '/channelIcon/3.jpeg',
 			videoName: 'Best Youtube Thumbnail of 2022',
 			channelName: 'Tamil TechLancer',

@@ -59,9 +59,6 @@ border: 1px solid;
 	z-index: 90;
 }
 
-
-
-
 .sideBar{
 	flex: 0.2;
 	flex-direction: column;
@@ -108,7 +105,7 @@ margin-left: 5px;
 }
 
 .videoCard {
-	flex:0.8;
+	flex:1;
 	overflow-y: scroll;
 }
 
@@ -182,6 +179,7 @@ margin-left: 5px;
 }
 
 .videoContainer{
-  margin-left: 5%;
-	height: 75vh;
+  margin-left: 3%;
+	height: 80vh;
+	width: 60vw;
 }
