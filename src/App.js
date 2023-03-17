@@ -11,6 +11,7 @@ const initialState = (context) => {
 		burgerMenu: true,
 		videoDetails: cardDetails,
 		filters: 'All',
+		history: [],
 	};
 };
 
@@ -18,7 +19,7 @@ const App = (context) => {
 	const [state, setState] = useState(initialState(context));
 	const extendedContext = { ...context, state, setState };
 
-	peek(state.videoDetails);
+	peek(state.history);
 	return (
 		<div className="App">
 			<BrowserRouter>

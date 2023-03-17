@@ -133,7 +133,6 @@ margin-left: 5px;
 
 .description{
 	display: flex;
-	flex:0.8;
 	flex-direction: column;
 }
 
@@ -161,6 +160,7 @@ margin-left: 5px;
 	flex-direction: row;
 	align-items: center;
 	margin-top: 2%;
+	width: 200px;
 }
 
 .views {
@@ -182,4 +182,29 @@ margin-left: 5px;
   margin-left: 3%;
 	height: 80vh;
 	width: 60vw;
+}
+
+.videoHistory {
+	flex: 0.6;
+}
+
+.videoHistory_container{
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.hist {
+	display: flex;
+	overflow-y: scroll;
+	flex: 1;
+}
+
+.historyOptions {
+	flex: 0.3;
+}
+
+.channelOnly {
+	margin-top: -55%;
+	margin-left: 105%;
 }

@@ -5,7 +5,7 @@ import FashionBeauty from '../components/SideBar/ExtendedSideBar/FashionBeauty';
 import Films from '../components/SideBar/ExtendedSideBar/Films';
 import Gaming from '../components/SideBar/ExtendedSideBar/Gaming';
 import Help from '../components/SideBar/ExtendedSideBar/Help';
-import History from '../components/SideBar/ExtendedSideBar/History';
+import History from '../components/SideBar/ExtendedSideBar/History/History';
 import Learning from '../components/SideBar/ExtendedSideBar/Learning';
 import Library from '../components/SideBar/ExtendedSideBar/Library';
 import Live from '../components/SideBar/ExtendedSideBar/Live';

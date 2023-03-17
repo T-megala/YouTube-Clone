@@ -1,3 +1,5 @@
+/* eslint-disable max-len */
+/* eslint-disable max-lines-per-function */
 import { React } from 'react';
 import { Link } from 'react-router-dom';
 import youtubeManager from '../../services/youtubeManager';
@@ -6,7 +8,7 @@ import Channel from './Channel';
 import Thumbnail from './Thumbnail';
 
 const VideoCard = (context) => {
-	const { state: { filters }} = context;
+	const { state: { filters, history }, state, setState } = context;
 	const filteredContent = youtubeManager.filter[filters](context);
 
 	return (
@@ -16,6 +18,10 @@ const VideoCard = (context) => {
 				{filteredContent.map((detail, key) =>
 					<Link
 						key={ key }
+						onClick={ () => setState({
+							...state,
+							history: [...history, detail],
+						}) }
 						to={ `/video${ detail.id }` }
 						style={ { textDecoration: 'none', color: 'black' } }
 						className="box-1"
