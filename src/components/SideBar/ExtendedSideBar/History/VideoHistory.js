@@ -1,7 +1,7 @@
 /* eslint-disable max-lines-per-function */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Channel from '../../../VideoCard/Channel';
+import Description from '../../../VideoCard/Description';
 import Thumbnail from '../../../VideoCard/Thumbnail';
 
 const VideoHistory = (context) => {
@@ -19,8 +19,8 @@ const VideoHistory = (context) => {
 					>
 						<Thumbnail { ...{ ...context, data: detail } }/>
 						<div className="channelOnly">
-							<Channel { ...{ ...context, data: detail } }/>
-						</div>
+							<Description { ...{ ...context, data: detail } }/>
+						</div>;
 					</Link>)}
 			</div>
 		</div>);

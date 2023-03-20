@@ -140,17 +140,17 @@ margin-left: 5px;
 	font-family: Arial, Helvetica, sans-serif;
 	display:flex;
 	text-overflow: ellipsis;
-	overflow: hidden;
 	max-height: 30%;
 	line-height: 185%;
 	font-size: 90%;
 	font-weight: 500;
+	width: max-content;
 }
 
 .channelName {
 	font-family: Arial, Helvetica, sans-serif;
 	margin-top: 1%;
-	width: 100%;
+	width: max-content;
 	font-size: small;
 	font-weight: 300;
 }
@@ -165,7 +165,7 @@ margin-left: 5px;
 
 .views {
 	display:inline-block;
-	width: -1px;
+	width: max-content;
 	font-size:small;
 	font-weight: lighter;
 }
@@ -190,6 +190,7 @@ margin-left: 5px;
 
 .videoHistory_container{
 	display: flex;
+	flex: 0.5;
 	flex-direction: column;
 	margin-top: 20px;
 }
@@ -201,10 +202,18 @@ margin-left: 5px;
 }
 
 .historyOptions {
-	flex: 0.3;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex: 0.2;
+	flex-wrap: wrap;
 }
 
 .channelOnly {
 	margin-top: -55%;
 	margin-left: 105%;
+}
+
+.historyVideoName{
+	display: flex;
 }
