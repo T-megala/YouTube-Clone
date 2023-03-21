@@ -144,13 +144,11 @@ margin-left: 5px;
 	line-height: 185%;
 	font-size: 90%;
 	font-weight: 500;
-	width: max-content;
 }
 
 .channelName {
 	font-family: Arial, Helvetica, sans-serif;
 	margin-top: 1%;
-	width: max-content;
 	font-size: small;
 	font-weight: 300;
 }
@@ -165,14 +163,13 @@ margin-left: 5px;
 
 .views {
 	display:inline-block;
-	width: max-content;
+	width: -1px;
 	font-size:small;
 	font-weight: lighter;
 }
 
 .time {
 	display: inline-block;
-	width: max-content;
 	margin-left: 10%;
 	font-size:small;
 	font-weight: 200;

@@ -7,7 +7,7 @@ const Router = (context) =>
 		<Route
 			key={ i }
 			path={ path }
-			element={ element({ ...context }) }
+			element={ element({ ...{ ...context, path }}) }
 		/>)}
 	</Routes>;
 

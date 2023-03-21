@@ -1,7 +1,7 @@
 import React from 'react';
 import historyButtons from '../../../../Data/historyButtons';
 
-const HistoryOptions = (context) =>
+const HistoryOptions = () =>
 	historyButtons.map((button, key) =>
 		<div key={ key } className="historyOptions">
 			<span>{button.icon}</span>

@@ -16,19 +16,20 @@ const VideoCard = (context) => {
 			<FilterContent { ...context }/>
 			<div className="videoCard_container">
 				{filteredContent.map((detail, key) =>
-					<Link
-						key={ key }
-						onClick={ () => setState({
-							...state,
-							history: [...history, detail],
-						}) }
-						to={ `/video${ detail.id }` }
-						style={ { textDecoration: 'none', color: 'black' } }
-						className="box-1"
-					>
-						<Thumbnail { ...{ ...context, data: detail } }/>
-						<Channel { ...{ ...context, data: detail } }/>
-					</Link>)}
+					<div key={ key }>
+						<Link
+							onClick={ () => setState({
+								...state,
+								history: [...history, detail],
+							}) }
+							to={ `/video${ detail.id }` }
+							style={ { textDecoration: 'none', color: 'black' } }
+							className="box-1"
+						>
+							<Thumbnail { ...{ ...context, data: detail } }/>
+							<Channel { ...{ ...context, data: detail } }/>
+						</Link>
+					</div>)}
 			</div>
 		</div>);
 };

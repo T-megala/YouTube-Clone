@@ -2,7 +2,6 @@ import { React, useState } from 'react';
 import './App.scss';
 import { BrowserRouter } from 'react-router-dom';
 import Router from './components/Router';
-import { peek } from '@laufire/utils/debug';
 
 const initialState = (context) => {
 	const { config: { cardDetails }} = context;
@@ -19,7 +18,6 @@ const App = (context) => {
 	const [state, setState] = useState(initialState(context));
 	const extendedContext = { ...context, state, setState };
 
-	peek(state.history);
 	return (
 		<div className="App">
 			<BrowserRouter>
