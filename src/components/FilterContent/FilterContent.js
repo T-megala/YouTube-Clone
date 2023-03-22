@@ -10,6 +10,7 @@ const FilterContent = (context) => {
 	const style = {
 		backgroundColor: '#ededed',
 		borderRadius: '10px ',
+		marginLeft: '15px',
 	};
 
 	return (
