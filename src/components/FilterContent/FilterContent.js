@@ -10,7 +10,6 @@ const FilterContent = (context) => {
 	const style = {
 		backgroundColor: '#ededed',
 		borderRadius: '10px ',
-		margin: '5px',
 	};
 
 	return (
@@ -44,7 +43,7 @@ const FilterContent = (context) => {
 					<Tab label="Anime" value="Anime" sx={ style }/>
 					<Tab label="Attack on Titan" value="Attack on Titan" sx={ style }/>
 				</TabList>
-				<TabPanel>
+				<TabPanel defaultValue="All">
 					<VideoCard { ...context }/>
 				</TabPanel>
 			</TabContext>

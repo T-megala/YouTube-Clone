@@ -2,7 +2,7 @@
 import { Button, Menu, MenuItem } from '@mui/material';
 import React, { useState } from 'react';
 
-const Options = (context) => {
+const Options = () => {
 	const [anchorEl, setAnchorEl] = useState(null);
 	const open = Boolean(anchorEl);
 	const handleClick = (event) => {
@@ -21,21 +21,22 @@ const Options = (context) => {
 			arias-haspopup="true"
 			aria-expanded={ open ? 'true' : undefined }
 		>more
+
+			<Menu
+				id="more-options"
+				anchorEl={ anchorEl }
+				open={ open }
+				MenuListProps={ {
+					'aria-labelledby': 'more-button',
+				} }
+				onClose={ handleClose }
+			>
+				<MenuItem> Watch Later</MenuItem>
+				<MenuItem>Add to Playlist</MenuItem>
+				<MenuItem>Download</MenuItem>
+				<MenuItem>Share</MenuItem>
+			</Menu>
 		</Button>
-		<Menu
-			id="more-options"
-			anchorEl={ anchorEl }
-			open={ open }
-			MenuListProps={ {
-				'aria-labelledby': 'more-button',
-			} }
-			onClose={ handleClose }
-		>
-			<MenuItem> Watch Later</MenuItem>
-			<MenuItem>Add to Playlist</MenuItem>
-			<MenuItem>Download</MenuItem>
-			<MenuItem>Share</MenuItem>
-		</Menu>
 	</div>;
 };
 
