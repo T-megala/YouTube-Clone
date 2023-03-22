@@ -1,6 +1,7 @@
 /* eslint-disable no-magic-numbers */
 /* eslint-disable max-lines-per-function */
 /* eslint-disable max-len */
+import { peek } from '@laufire/utils/debug';
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
 import VideoCard from './VideoCard';
@@ -8,6 +9,7 @@ import VideoCard from './VideoCard';
 const Video = (context) => {
 	const { config: { cardDetails }, path } = context;
 
+	peek(path);
 	return (
 		<div>
 			<NavBar { ...context }/>
