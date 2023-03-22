@@ -9,7 +9,7 @@ const ShrinkSideBar = () =>
 				key={ i }
 				to={ `/${ bar.text === 'Home' ? '' : bar.text }` }
 				style={ { textDecoration: 'none', color: 'black' } }
-				className="__shrinkSideBar"
+				className="shrinkSideBar"
 			>
 				<span className="shrinkBar__icon">{bar.icon}</span>
 				<span className="shrinkBar__text">{bar.text}</span>
