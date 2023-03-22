@@ -1,30 +1,20 @@
-/* eslint-disable no-magic-numbers */
-/* eslint-disable max-lines-per-function */
-/* eslint-disable max-len */
-import { peek } from '@laufire/utils/debug';
 import React from 'react';
+import FilterContent from '../FilterContent/FilterContent';
 import NavBar from '../NavBar/NavBar';
-import VideoCard from './VideoCard';
 
 const Video = (context) => {
-	const { config: { cardDetails }, path } = context;
+	const { state: { selectedId }} = context;
 
-	peek(path);
 	return (
 		<div>
 			<NavBar { ...context }/>
-			<div className="container">
-				{cardDetails.some((data, key) =>
-					(data.id === path.slice(6)
-						? <div key={ key }>
-							<video
-								className="videoContainer"
-								src={ data.video }
-								controls={ true }
-							/>
-							<VideoCard { ...context }/>
-						</div>
-						: ''))}
+			<div className="videoContainer">
+				<video
+					className="video"
+					src={ selectedId }
+					controls={ true }
+				/>
+				<FilterContent { ...context }/>
 			</div>
 		</div>);
 };

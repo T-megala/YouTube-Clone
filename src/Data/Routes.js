@@ -102,24 +102,42 @@ const RoutesData = [
 		path: '/Send feedback',
 		element: SendFeedback,
 	},
-	{ path: '/video123',
-		element: Video },
-	{ path: '/video234',
-		element: Video },
-	{ path: '/video345',
-		element: Video },
-	{ path: '/video456',
-		element: Video },
-	{ path: '/video567',
-		element: Video	},
-	{ path: '/video678',
-		element: Video	},
-	{ path: '/video789',
-		element: Video	},
-	{ path: '/video910',
-		element: Video	},
-	{ path: '/video101',
-		element: Video	},
+	{
+		path: '/video123',
+		element: Video,
+	},
+	{
+		path: '/video234',
+		element: Video,
+	},
+	{
+		path: '/video345',
+		element: Video,
+	},
+	{
+		path: '/video456',
+		element: Video,
+	},
+	{
+		path: '/video567',
+		element: Video,
+	},
+	{
+		path: '/video678',
+		element: Video,
+	},
+	{
+		path: '/video789',
+		element: Video,
+	},
+	{
+		path: '/video910',
+		element: Video,
+	},
+	{
+		path: '/video101',
+		element: Video,
+	},
 
 ];
 

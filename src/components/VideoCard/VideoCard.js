@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 /* eslint-disable max-lines-per-function */
 import { React } from 'react';
 import { Link } from 'react-router-dom';
@@ -20,6 +19,7 @@ const VideoCard = (context) => {
 						<Link
 							onClick={ () => setState({
 								...state,
+								selectedId: `${ detail.video }`,
 								history: [...history, detail],
 							}) }
 							to={ `/video${ detail.id }` }
