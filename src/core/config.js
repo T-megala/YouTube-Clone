@@ -121,6 +121,14 @@ const config = {
 		'Attack on Titan',
 		'Lifestyle',
 	],
+
+	videoMenu: [
+		'Add to Queue',
+		'Save to Watch later',
+		'save to playlist',
+		'Download',
+		'Share',
+	],
 };
 
 export default config;

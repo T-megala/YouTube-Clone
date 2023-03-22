@@ -218,3 +218,31 @@ margin-left: 5px;
 .videoContainer{
 	display: flex;
 }
+
+.reportLeft {
+	flex: 0.6;
+	font-family: "Roboto","Arial",sans-serif;
+	font-size: 1.0rem;
+	line-height: 2rem;
+	font-weight: 400;
+
+}
+
+.reportHeader {
+	font-family: "Roboto","Arial",sans-serif;
+	font-size: 1.4rem;
+	line-height: 2.2rem;
+	font-weight: 400;
+	margin-top: 10%;
+}
+
+.reportContent {
+	margin-top: -3%;
+}
+
+.reportRight {
+flex: 0.2;
+}
+
+.videoOptions {
+}
