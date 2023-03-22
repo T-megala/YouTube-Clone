@@ -108,7 +108,7 @@ const config = {
 		'computerProgramming',
 		'Music',
 		'AI',
-		'GAdgets',
+		'Gadgets',
 		'Naruto',
 		'Podcasts',
 		'News',
