@@ -13,6 +13,7 @@ const SignIn = () =>
 		} }
 		size="xlarge"
 		startIcon={ <AccountCircleOutlined/> }
+		onClick={ () => window.location.replace('http://localhost:1234/login') }
 	>Sign In
 	</Button>;
 
