@@ -12,8 +12,11 @@ const filter = {
 		data.category === filters),
 };
 
+const sortHistory = ({ state: { history }}) => history.sort((a, b) => b.date - a.date);
+
 const youtubeManager = {
 	filter,
+	sortHistory,
 };
 
 export default youtubeManager;

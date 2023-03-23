@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable max-lines-per-function */
 import { React } from 'react';
 import FilterContent from '../FilterContent/FilterContent';

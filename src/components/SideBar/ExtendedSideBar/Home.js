@@ -3,7 +3,6 @@ import React from 'react';
 import Container from '../../Container';
 import NavBar from '../../NavBar/NavBar';
 import Cookies from 'js-cookie';
-import { peek } from '@laufire/utils/debug';
 
 const Home = (context) => {
 	const cookieName = 'userDetail';
@@ -13,7 +12,7 @@ const Home = (context) => {
 	// ?.split('=')[1];
 
 	console.log(cookieValue, 'test');
-	peek(Cookies.get('userDetail.j.name'));
+	Cookies.get('userDetail.j.name');
 
 	return <div>
 		<NavBar { ...context }/>
