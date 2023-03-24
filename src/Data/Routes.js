@@ -3,7 +3,7 @@ import BrowseChannels from
 	'../components/SideBar/ExtendedSideBar/BrowseChannels';
 import FashionBeauty from '../components/SideBar/ExtendedSideBar/FashionBeauty';
 import Films from '../components/SideBar/ExtendedSideBar/Films';
-import Gaming from '../components/SideBar/ExtendedSideBar/Gaming';
+import Gaming from '../components/SideBar/ExtendedSideBar/Gaming/Gaming';
 import Help from '../components/SideBar/ExtendedSideBar/Help';
 import History from '../components/SideBar/ExtendedSideBar/History/History';
 import Learning from '../components/SideBar/ExtendedSideBar/Learning';
