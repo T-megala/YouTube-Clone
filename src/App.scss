@@ -185,12 +185,17 @@
 	flex: 1;
 }
 
-.historyOptions {
+.videoHistory_container {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	flex: 0.2;
-	flex-wrap: wrap;
+	flex: 0.6;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.historyOptionsContainer {
+	display: flex;
+	flex-direction: column;
+	flex: 0.4;
 }
 
 .channelOnly {
@@ -202,8 +207,27 @@
 	display: flex;
 }
 
-.videoContainer {
+.videoContainer  {
 	display: flex;
+}
+
+.manageHistory {
+	display: flex;
+	margin-top: 8%;
+	gap: 10px;
+	align-items: center;
+}
+
+.radioButtons {
+	margin-top: 10%;
+	column-gap: 50%;
+}
+
+.line {
+	border: 1px solid grey;
+	border-width: thin;
+	width: 300px;
+	margin-top: 4%;
 }
 
 .reportLeft {

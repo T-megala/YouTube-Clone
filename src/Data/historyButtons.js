@@ -8,15 +8,15 @@ import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 
 const historyButtons = [
 	{
-		text: 'clear all watch history',
+		text: 'Clear all watch history',
 		icon: <DeleteForeverOutlinedIcon/>,
 	},
 	{
-		text: 'pause watch history',
+		text: 'Pause watch history',
 		icon: <PauseCircleOutlinedIcon/>,
 	},
 	{
-		text: 'manage all history',
+		text: 'Manage all history',
 		icon: <SettingsOutlinedIcon/>,
 	},
 ];

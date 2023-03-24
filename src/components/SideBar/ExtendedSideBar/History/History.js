@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../../../NavBar/NavBar';
 import SideBar from '../../SideBar';
+import HistoryOptions from './HistoryOptions';
 import VideoHistory from './VideoHistory';
 
 const History = (context) =>
@@ -10,6 +11,7 @@ const History = (context) =>
 			<SideBar { ...context }/>
 			<div className="hist">
 				<VideoHistory { ...context }/>
+				<HistoryOptions/>
 			</div>
 		</div>
 	</div>;

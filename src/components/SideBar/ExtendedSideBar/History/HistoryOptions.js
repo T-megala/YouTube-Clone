@@ -1,11 +1,13 @@
 import React from 'react';
-import historyButtons from '../../../../Data/historyButtons';
+import ManageHistory from './ManageHistory';
+import RadioButtons from './RadioButtons';
+import Search from './Search';
 
 const HistoryOptions = () =>
-	historyButtons.map((button, key) =>
-		<div key={ key } className="historyOptions">
-			<span>{button.icon}</span>
-			<span>{button.text}</span>
-		</div>);
+	<div className="historyOptionsContainer">
+		<Search/>
+		<RadioButtons/>
+		<ManageHistory/>
+	</div>;
 
 export default HistoryOptions;

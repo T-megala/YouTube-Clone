@@ -10,26 +10,25 @@ const VideoHistory = (context) => {
 	const sortedHistory = youtubeManager.sortHistory(context);
 
 	return (
-		<div className=" videoHistory">
-			<div className="videoHistory_container">
-				{sortedHistory.map((detail, key) =>
-					<Link
-						key={ key }
-						onClick={ () => setState({
-							...state,
-							selectedId: `${ detail.video }`,
-						}) }
-						to={ `/video${ detail.id }` }
-						style={ { textDecoration: 'none', color: 'black' } }
-						className="box-1"
-					>
-						<Thumbnail { ...{ ...context, data: detail } }/>
-						<div className="channelOnly">
-							<Description { ...{ ...context, data: detail } }/>
-						</div>;
-					</Link>)}
-			</div>
-		</div>);
+		<div className="videoHistory_container">
+			{sortedHistory.map((detail, key) =>
+				<Link
+					key={ key }
+					onClick={ () => setState({
+						...state,
+						selectedId: `${ detail.video }`,
+					}) }
+					to={ `/video${ detail.id }` }
+					style={ { textDecoration: 'none', color: 'black' } }
+					className="box-1"
+				>
+					<Thumbnail { ...{ ...context, data: detail } }/>
+					<div className="channelOnly">
+						<Description { ...{ ...context, data: detail } }/>
+					</div>
+				</Link>)}
+		</div>
+	);
 };
 
 export default VideoHistory;
