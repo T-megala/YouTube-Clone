@@ -2,11 +2,11 @@ import { React } from 'react';
 
 const Description = ({ data: detail }) =>
 	<div className="description">
-		<div className="videoName">{detail.videoName}</div>
-		 <div className="channelName">{detail.channelName}</div>
-		 <div className="viewsAndTime">
-			<div className="views">{detail.views}</div>
-			<div className="time">{detail.time}</div>
+		<span className="videoName">{detail.videoName}</span>
+		<span className="channelName">{detail.channelName}</span>
+		<div>
+			<span className="views">{detail.views}</span>
+			<span className="time">{detail.time}</span>
 		 </div>
 	</div>;
 

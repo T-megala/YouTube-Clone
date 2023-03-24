@@ -1,12 +1,12 @@
 import { React } from 'react';
 
 const Thumbnail = ({ data: detail }) =>
-	<div className="thumbnail">
-		<img
-			alt="thumbnail"
-			src={ detail.img }
-			height="180px"
-		/>
-	</div>;
+	<img
+		alt="thumbnail"
+		src={ detail.img }
+		height="190px"
+		width="340px"
+		style={ { borderRadius: '15px' } }
+	/>;
 
 export default Thumbnail;
