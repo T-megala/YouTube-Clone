@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import youtubeManager from '../../../../services/youtubeManager';
-import Description from '../../../VideoCard/Description';
+import Channel from '../../../VideoCard/Channel';
 import Thumbnail from '../../../VideoCard/Thumbnail';
 
 const VideoHistory = (context) => {
@@ -24,7 +24,7 @@ const VideoHistory = (context) => {
 				>
 					<Thumbnail { ...{ ...context, data: detail } }/>
 					<div className="channelOnly">
-						<Description { ...{ ...context, data: detail } }/>
+						<Channel { ...{ ...context, data: detail } }/>
 					</div>
 				</Link>)}
 		</div>

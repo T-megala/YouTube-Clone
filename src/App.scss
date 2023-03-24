@@ -78,7 +78,6 @@
 	margin-left: 12px;
 }
 
-
 .sideBar_text {
 	margin-left: 30px;
 }
@@ -121,7 +120,7 @@
 	margin-left: 30px;
 }
 
-.videoCard_video{
+.videoCard_video {
 	width: 340px;
 }
 
@@ -145,13 +144,14 @@
 	display: flex;
 	flex-direction: column;
 
-
 	.videoName {
 		max-height: 42px;
 		overflow: hidden;
 	}
 
-	.channelName, .views, .time {
+	.channelName,
+	.views,
+	.time {
 		font-size: small;
 		color: rgb(107, 107, 107);
 	}
@@ -159,7 +159,6 @@
 	.time {
 		margin-left: 2%;
 	}
-
 }
 
 .video {
@@ -177,6 +176,7 @@
 	flex: 0.5;
 	flex-direction: column;
 	margin-top: 20px;
+	height: max-content;
 }
 
 .hist {
@@ -196,18 +196,21 @@
 	display: flex;
 	flex-direction: column;
 	flex: 0.4;
+	position: sticky;
+	top: 0;
 }
 
 .channelOnly {
 	margin-top: -55%;
-	margin-left: 105%;
+	margin-left: 120%;
+	width: 100%;
 }
 
 .historyVideoName {
 	display: flex;
 }
 
-.videoContainer  {
+.videoContainer {
 	display: flex;
 }
 
@@ -236,7 +239,6 @@
 	font-size: 1.0rem;
 	line-height: 2rem;
 	font-weight: 400;
-
 }
 
 .reportHeader {
