@@ -1,5 +1,5 @@
-html{
-scroll-snap-type: y mandatory;
+html {
+	scroll-snap-type: y mandatory;
 }
 
 
@@ -67,7 +67,7 @@ scroll-snap-type: y mandatory;
 }
 
 .sideBar {
-	flex: 0.2;
+	width: 17%;
 	flex-direction: column;
 	overflow-y: scroll;
 }
@@ -277,17 +277,14 @@ box-sizing: border-box;
 	flex: 0.2;
 }
 
-.shortsContainer{
+.shortsContainer {
 	position: relative;
-	width: 50vmin;
-	height: 80vh;
+	width: 70vmin;
+	height: 85vh;
 	display: flex;
 	left: 25%;
-flex-direction: column;
-overflow: scroll;
-scroll-snap-type: y mandatory;
--ms-overflow-style: none;
-scrollbar-width: none;
+	flex-direction: column;
+	overflow: scroll;
 }
 
 .shortsContainer::-webkit-scrollbar {
@@ -296,13 +293,16 @@ scrollbar-width: none;
 
 .shortsVideo {
 	display: flex;
-	margin-top: 15px;
+	width: 80%;
+	height: 79vh;
+	margin-top: 29px;
 }
 
 .shorts {
 	background-color: black;
-	width: inherit;
 	border-radius: 10px;
+	width: 80%;
+	object-fit: fill;
 }
 
 .shorts_option {

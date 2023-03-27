@@ -1,10 +1,10 @@
 import React from 'react';
 import SideBar from '../SideBar';
 
-const Library = (context) =>
+const Music = (context) =>
 	<div className="container">
 		<SideBar { ...context }/>
-		<div>Library</div>
+		<div>Music</div>
 	</div>;
 
-export default Library;
+export default Music;

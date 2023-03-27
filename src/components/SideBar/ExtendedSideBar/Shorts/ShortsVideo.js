@@ -17,7 +17,7 @@ const ShortsVideo = (context) => {
 					<source src={ video }/>
 				</video>
 				<ShortsOption { ...context }/>
-			</div>)};
+			</div>)}
 	</div>;
 };
 

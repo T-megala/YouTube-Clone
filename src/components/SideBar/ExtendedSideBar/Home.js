@@ -1,7 +1,6 @@
 /* eslint-disable no-console */
 import React from 'react';
 import Container from '../../Container';
-import NavBar from '../../NavBar/NavBar';
 import Cookies from 'js-cookie';
 
 const Home = (context) => {
@@ -14,7 +13,6 @@ const Home = (context) => {
 	Cookies.get('userDetail.j.name');
 
 	return <div>
-		<NavBar { ...context }/>
 		<Container { ...context }/>
 	</div>;
 };
