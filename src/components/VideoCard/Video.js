@@ -1,5 +1,4 @@
 import React from 'react';
-import FilterContent from '../FilterContent/FilterContent';
 import NavBar from '../NavBar/NavBar';
 
 const Video = (context) => {
@@ -14,7 +13,6 @@ const Video = (context) => {
 					src={ selectedId }
 					controls={ true }
 				/>
-				<FilterContent { ...context }/>
 			</div>
 		</div>);
 };

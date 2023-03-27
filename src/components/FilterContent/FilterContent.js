@@ -3,7 +3,7 @@
 import React from 'react';
 import { Tab } from '@mui/material';
 import { TabContext, TabList, TabPanel } from '@mui/lab';
-import VideoCard from '../VideoCard/VideoCard';
+import VideoCardContainer from '../VideoCard/VideoCardContainer';
 
 const FilterContent = (context) => {
 	const { state: { filters }, state, setState } = context;
@@ -44,8 +44,8 @@ const FilterContent = (context) => {
 					<Tab label="Anime" value="Anime" sx={ style }/>
 					<Tab label="Attack on Titan" value="Attack on Titan" sx={ style }/>
 				</TabList>
-				<TabPanel defaultValue="All">
-					<VideoCard { ...context }/>
+				<TabPanel value={ filters }>
+					<VideoCardContainer { ...context }/>
 				</TabPanel>
 			</TabContext>
 		</div>

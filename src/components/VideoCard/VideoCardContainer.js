@@ -15,7 +15,7 @@ const VideoCardContainer = (context) => {
 				<Link
 					onClick={ () => setState({
 						...state,
-						selectedId: `${ detail.video }`,
+						selectedId: detail.video,
 						history: [...history, detail],
 					}) }
 					to={ `/video${ detail.id }` }

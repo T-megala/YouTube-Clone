@@ -15,7 +15,7 @@ import ReportHistory from '../components/SideBar/ExtendedSideBar/ReportHistory';
 import SendFeedback from '../components/SideBar/ExtendedSideBar/SendFeedback';
 import Settings from '../components/SideBar/ExtendedSideBar/Settings';
 import Shopping from '../components/SideBar/ExtendedSideBar/Shopping';
-import Shorts from '../components/SideBar/ExtendedSideBar/Shorts';
+import Shorts from '../components/SideBar/ExtendedSideBar/Shorts/Shorts';
 import Sport from '../components/SideBar/ExtendedSideBar/Sport';
 import Subscriptions from '../components/SideBar/ExtendedSideBar/Subscriptions';
 import Trending from '../components/SideBar/ExtendedSideBar/Trending';
