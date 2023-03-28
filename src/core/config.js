@@ -81,7 +81,6 @@ const config = {
 			id: 789,
 			category: 'Music',
 		},
-
 		{
 			img: '/image/7.jpg',
 			video: videoLinks.v8,
@@ -104,7 +103,6 @@ const config = {
 			id: 101,
 			category: 'computerProgramming',
 		},
-
 		{
 			img: thumbnails.gthumb1,
 			video: videoLinks.gaming1,
@@ -116,7 +114,6 @@ const config = {
 			id: 1,
 			category: 'Gaming',
 		},
-
 		{
 			img: thumbnails.gthumb2,
 			video: videoLinks.gaming2,
@@ -128,7 +125,6 @@ const config = {
 			id: 2,
 			category: 'Gaming',
 		},
-
 	],
 	categories: [
 		'All',
@@ -156,6 +152,18 @@ const config = {
 		'save to playlist',
 		'Download',
 		'Share',
+	],
+
+	browseCategories: [
+		'Best of Youtube',
+		'Beauty and Fashion',
+		'Comedy',
+		'Sports',
+		'Music',
+		'Tech',
+		'Gaming',
+		'Cooking and Health',
+		'Film and Entertainment',
 	],
 
 };

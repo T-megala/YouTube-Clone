@@ -258,4 +258,33 @@
 	flex: 0.2;
 }
 
-.videoOptions {}
+.channelCategories {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	background-color: plum;
+	overflow-y: scroll;
+}
+
+.categoryName {
+	display: flex;
+	flex-direction: column;
+}
+
+.categoryLogo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.categoryContainer {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 1%;
+}
+
+.subsCount {
+	margin-top: 5%;
+}
+
+
