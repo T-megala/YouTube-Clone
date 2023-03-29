@@ -7,8 +7,8 @@ const beautyAndFashion = [
 		subscribers: '249K subscribers',
 	},
 	{
-		category: 'Alexandra Rodrigues',
-		image: 'https://yt3.googleusercontent.com/rbrQ0dHp33VNK7b1TAAbXl-Pb_nMynnt2KGifev7A8unEXlPgGrQ-twE5X63vzQIIWseMVxs=s176-c-k-c0x00ffffff-no-rj-mo',
+		category: 'Sally jo',
+		image: 'https://yt3.googleusercontent.com/jpLCTAMhQ_w273-0DUBOjADbwg8EKEl2TF-QSqiXGYZANS2LR94z7pjqDJ5vvcYtci26FvV-=s176-c-k-c0x00ffffff-no-rj-mo',
 		subscribers: '485K subscribers',
 	},
 	{
