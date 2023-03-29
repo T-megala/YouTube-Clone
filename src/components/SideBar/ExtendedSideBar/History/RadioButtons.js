@@ -11,7 +11,11 @@ const RadioButtons = () =>
 			<FormLabel
 				sx={ { color: 'grey' } }
 			>History type</FormLabel>
-			<div className="line"/>
+			<hr
+				style={ {
+					width: '25em',
+				} }
+			/>
 			<RadioGroup
 				defaultValue="Watch history"
 			>
@@ -20,13 +24,21 @@ const RadioButtons = () =>
 					value="Watch history"
 					control={ <Radio/> }
 				/>
-				<div className="line"/>
+				<hr
+					style={ {
+						width: '99%',
+					} }
+				/>
 				<FormControlLabel
 					value="Community"
 					control={ <Radio/> }
 					label="Community"
 				/>
-				<div className="line"/>
+				<hr
+					style={ {
+						width: '99%',
+					} }
+				/>
 			</RadioGroup>
 		</FormControl>
 	</div>;
