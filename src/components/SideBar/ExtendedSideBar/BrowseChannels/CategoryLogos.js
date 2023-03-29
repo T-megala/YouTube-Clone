@@ -1,11 +1,10 @@
 import { Avatar } from '@mui/material';
 import React from 'react';
-import bestOfYt from '../../../../Data/bestOfYt';
 import SubscribeButton from './SubscribeButton';
 
-const CategoryLogos = () =>
+const CategoryLogos = ({ data: { collections }}) =>
 	<div className="categoryContainer">
-		{bestOfYt.map((channel, key) =>
+		{collections.map((channel, key) =>
 			<div key={ key } className="categoryLogo">
 				<Avatar
 					alt="img"

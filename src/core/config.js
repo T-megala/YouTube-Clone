@@ -1,5 +1,14 @@
 import videoLinks from '../Data/videoLinks';
 import thumbnails from '../Data/thumbnails';
+import bestOfYt from '../Data/bestOfYt';
+import beautyAndFashion from '../Data/beautyAndFashion';
+import comedy from '../Data/comedy';
+import cookingAndHealth from '../Data/cookingAndHealth';
+import filmAndEnt from '../Data/filmAndEnt';
+import gaming from '../Data/gaming';
+import music from '../Data/music';
+import sports from '../Data/sports';
+import tech from '../Data/tech';
 
 const config = {
 
@@ -155,15 +164,42 @@ const config = {
 	],
 
 	browseCategories: [
-		'Best of Youtube',
-		'Beauty and Fashion',
-		'Comedy',
-		'Sports',
-		'Music',
-		'Tech',
-		'Gaming',
-		'Cooking and Health',
-		'Film and Entertainment',
+		{
+			title: 'Best of Youtube',
+			collections: bestOfYt,
+		},
+		{
+			title: 'Beauty and Fashion',
+			collections: beautyAndFashion,
+		},
+		{
+			title: 'Comedy',
+			collections: comedy,
+		},
+		{
+			title: 'Sports',
+			collections: sports,
+		},
+		{
+			title: 'Music',
+			collections: music,
+		},
+		{
+			title: 'Tech',
+			collections: tech,
+		},
+		{
+			title: 'Gaming',
+			collections: gaming,
+		},
+		{
+			title: 'Cooking and Health',
+			collections: cookingAndHealth,
+		},
+		{
+			title: 'Film and Entertainment',
+			collections: filmAndEnt,
+		},
 	],
 
 };

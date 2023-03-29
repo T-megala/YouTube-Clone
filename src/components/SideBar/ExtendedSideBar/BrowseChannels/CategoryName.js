@@ -6,8 +6,13 @@ const CategoryName = (context) => {
 
 	return browseCategories.map((category, key) =>
 		<div key={ key } className="categoryName">
-			{category}
-			<CategoryLogos { ...context }/>
+			{category.title}
+			<CategoryLogos { ...{ ...context, data: category } }/>
+			<hr
+				style={ {
+					width: '99%',
+				} }
+			/>
 		</div>);
 };
 
