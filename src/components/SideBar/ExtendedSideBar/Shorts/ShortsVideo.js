@@ -1,23 +1,18 @@
-/* eslint-disable max-len */
 import React from 'react';
-import ShortsOption from './ShortsOption';
+import ShortsDescription from './ShortsDescription';
 
 const ShortsVideo = (context) => {
-	const { config: { cardDetails }} = context;
+	const { data: { cardDetail }} = context;
 
-	return	<div className="shortsContainer">
-		{cardDetails.map(({ video }, i) =>
-			<div key={ i } className="shortsVideo">
-				<video
-					muted={ true }
-					autoPlay={ true }
-					controls=""
-					className="shorts"
-				>
-					<source src={ video }/>
-				</video>
-				<ShortsOption { ...context }/>
-			</div>)}
+	return <div className="shorts">
+		<ShortsDescription { ...{ ...context, data: { cardDetail }} }/>
+		<video
+			muted={ true }
+			autoPlay={ true }
+			controls=""
+		>
+			<source src={ cardDetail.video }/>
+		</video>
 	</div>;
 };
 

@@ -2,12 +2,12 @@
 /* eslint-disable max-len */
 import React from 'react';
 import SideBar from '../../SideBar';
-import ShortsVideo from './ShortsVideo';
+import ShortsContainer from './ShortsContainer';
 
 const Shorts = (context) =>
 	<div className="container">
 		<SideBar { ...context }/>
-		<ShortsVideo { ...context }/>
+		<ShortsContainer { ...context }/>
 	</div>;
 
 export default Shorts;

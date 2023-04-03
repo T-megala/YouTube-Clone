@@ -8,7 +8,7 @@ html {
 	height: 10vh;
 	top: 0;
 	background-color: white;
-	z-index: 100;
+	z-index: 1;
 }
 
 .nav-left:first-child {
@@ -61,9 +61,9 @@ html {
 
 .filterContent {
 	position: sticky;
-	top: 0;
 	background-color: white;
 	z-index: 1;
+	top: 10px;
 }
 
 .sideBar {
@@ -277,31 +277,37 @@ box-sizing: border-box;
 	flex: 0.2;
 }
 
-.shortsContainer {
+.shortsVideos {
 	position: relative;
 	width: 70vmin;
-	height: 85vh;
+	height: 95vh;
 	display: flex;
 	left: 25%;
 	flex-direction: column;
 	overflow: scroll;
+	bottom:8%
 }
 
-.shortsContainer::-webkit-scrollbar {
+.shortsVideos::-webkit-scrollbar {
 	display: none;
 }
 
-.shortsVideo {
+.shortsVideoContainer {
 	display: flex;
-	width: 80%;
-	height: 79vh;
-	margin-top: 29px;
+	width: 60vw;
+	height: 87vh;
 }
 
 .shorts {
+	width: 65%
+}
+
+.shorts>video
+ {
 	background-color: black;
 	border-radius: 10px;
-	width: 80%;
+	width: 90%;
+	height: 90%;
 	object-fit: fill;
 }
 
@@ -311,6 +317,15 @@ box-sizing: border-box;
 	display: flex;
 	height: inherit;
 	width: inherit;
+	margin-left: -2%;
+}
+
+.overlay {
+	position: relative;
+	top: 87%;
+	color: white;
+	width: 70%;
+	word-wrap: break-word;
 }
 .channelCategories {
 	display: flex;

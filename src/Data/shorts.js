@@ -3,6 +3,7 @@ import ReplyIcon from '@mui/icons-material/Reply';
 import CommentIcon from '@mui/icons-material/Comment';
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import ThumbDownIcon from '@mui/icons-material/ThumbDown';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 
 const shorts = [
 	{
@@ -21,7 +22,10 @@ const shorts = [
 		text: 'Share',
 		icon: <ReplyIcon dir="rtl"/>,
 	},
-
+	{
+		text: 'more',
+		icon: <MoreHorizIcon/>,
+	},
 ];
 
 export default shorts;
