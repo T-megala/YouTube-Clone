@@ -164,6 +164,7 @@ box-sizing: border-box;
 .channel {
 	display: flex;
 	gap: 10px;
+	align-items: center;
 }
 
 .description {
@@ -279,13 +280,13 @@ box-sizing: border-box;
 
 .shortsVideos {
 	position: relative;
-	width: 70vmin;
+	width: 55vmin;
 	height: 95vh;
 	display: flex;
 	left: 25%;
 	flex-direction: column;
 	overflow: scroll;
-	bottom:8%
+	bottom: 8%
 }
 
 .shortsVideos::-webkit-scrollbar {
@@ -302,9 +303,7 @@ box-sizing: border-box;
 	width: 65%
 }
 
-.shorts>video
- {
-	background-color: black;
+.shorts>video {
 	border-radius: 10px;
 	width: 90%;
 	height: 90%;
@@ -323,9 +322,16 @@ box-sizing: border-box;
 .overlay {
 	position: relative;
 	top: 87%;
+	left: 4%;
 	color: white;
-	width: 70%;
+	width: 97%;
 	word-wrap: break-word;
+	}
+
+.temp {
+	display: flex;
+	align-items: center;
+	margin-top: 6%;
 }
 .channelCategories {
 	display: flex;

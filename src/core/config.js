@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import videoLinks from '../Data/videoLinks';
 import thumbnails from '../Data/thumbnails';
 import bestOfYt from '../Data/bestOfYt';

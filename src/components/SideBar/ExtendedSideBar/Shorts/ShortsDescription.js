@@ -5,12 +5,17 @@ const Description = ({ data: { cardDetail }}) =>
 	<div className="overlay">
 		{cardDetail.videoName}
 		<br/>
-		<Avatar
-			sx={ { display: 'inline-block' } }
-			alt="icon"
-			src={ cardDetail.icon }
-		/>
-		{`	@${ cardDetail.channelName }`}
+		<div
+			className="channel"
+			style={ { marginTop: '5%' } }
+		>
+			<Avatar
+				sx={ { display: 'inline-block' } }
+				alt="icon"
+				src={ cardDetail.icon }
+			/>
+			{`	@${ cardDetail.channelName }`}
+		</div>
 	</div>
 	;
 

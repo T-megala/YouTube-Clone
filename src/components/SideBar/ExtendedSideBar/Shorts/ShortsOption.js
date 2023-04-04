@@ -7,11 +7,14 @@ const ShortsOption = () =>
 			shorts.map((short, i) =>
 				<div
 					key={ i }
-					className="shrinkSideBar"
-					style={ { lineHeight: '25px' } }
+					style={ {	display: 'flex',
+						flexDirection: 'column',
+						lineHeight: '25px',
+						width: '53px' } }
+					className="temp"
 				>
+					<span style={ { marginLeft: '10px' } }>{short.icon}</span>
 					<span>{short.text}</span>
-					<span>{short.icon}</span>
 				</div>)
 		}
 	</div>;

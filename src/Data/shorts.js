@@ -23,7 +23,6 @@ const shorts = [
 		icon: <ReplyIcon dir="rtl"/>,
 	},
 	{
-		text: 'more',
 		icon: <MoreHorizIcon/>,
 	},
 ];
