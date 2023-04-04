@@ -8,11 +8,11 @@ const GamingVideos = (context) => {
 	const gamingVideos = cardDetails.filter((detail) =>
 		detail.category === 'Gaming');
 
-	return <div className=" videoCard_container">
+	return <div className="gaming_container">
 		{gamingVideos.map((detail, key) =>
-			<div key={ key } className="videoCard_video">
+			<div key={ key }>
 				<Link
-					to={ `/video${ detail.id }` }
+					to={ `/gaming${ detail.id }` }
 					style={ { textDecoration: 'none', color: 'black' } }
 					className="box-1"
 				>

@@ -1,6 +1,6 @@
+/* eslint-disable max-len */
 import Home from '../components/SideBar/ExtendedSideBar/Home';
-import BrowseChannels from
-	'../components/SideBar/ExtendedSideBar/BrowseChannels';
+import BrowseChannels from '../components/SideBar/ExtendedSideBar/BrowseChannels';
 import FashionBeauty from '../components/SideBar/ExtendedSideBar/FashionBeauty';
 import Films from '../components/SideBar/ExtendedSideBar/Films';
 import Gaming from '../components/SideBar/ExtendedSideBar/Gaming/Gaming';
@@ -9,7 +9,7 @@ import History from '../components/SideBar/ExtendedSideBar/History/History';
 import Learning from '../components/SideBar/ExtendedSideBar/Learning';
 import Library from '../components/SideBar/ExtendedSideBar/Library';
 import Live from '../components/SideBar/ExtendedSideBar/Live';
-import Music from '../components/SideBar/ExtendedSideBar/Music';
+import Music from '../components/SideBar/ExtendedSideBar/Music/Music';
 import News from '../components/SideBar/ExtendedSideBar/News';
 import ReportHistory from '../components/SideBar/ExtendedSideBar/ReportHistory';
 import SendFeedback from '../components/SideBar/ExtendedSideBar/SendFeedback';
