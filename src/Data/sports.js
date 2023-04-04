@@ -23,7 +23,7 @@ const gaming = [
 	},
 	{
 		category: 'Mumbai Indians',
-		image: 'https://yt3.googleusercontent.com/Uua-sDZCxzAO6BpTear-IfPqSuCgfv6MY1i1VsigjSf1FU1PmBUGSH_mKJT1w5lD2VUCWjpoDug=s176-c-k-c0x00ffffff-no-rj',
+		image: 'https://yt3.ggpht.com/6qLd1-g_4GOfNAlBnn1i6C9C6jlEfW8loEHyFxzsCXhGLIRkZhKPlBJt6txeOofN4GpmUCnv5Q=s176-c-k-c0x00ffffff-no-rj-mo',
 		subscribers: '2M subscribers',
 	},
 ];
