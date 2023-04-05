@@ -8,6 +8,7 @@ const Video = (context) => {
 			<video
 				className="video"
 				src={ selectedId }
+				autoPlay={ true }
 				controls={ true }
 			/>
 		</div>);

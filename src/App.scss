@@ -52,12 +52,22 @@ html {
 	border: 1px solid #d3d3d3;
 }
 
+.searchButton:hover {
+	background-Color:  #d3d3d3;
+}
+
 .container,
 .sideBar,
 .sideBar_category {
 	display: flex;
 	height: 90vh;
 }
+
+.sideBar_category:hover {
+	background-Color:  #d3d3d3;
+	border-radius: 10px;
+}
+
 
 .filterContent {
 	position: sticky;

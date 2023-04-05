@@ -22,10 +22,14 @@ const FilterContent = (context) => {
 					variant="scrollable"
 					scrollButtons="auto"
 					indicatorColor="white"
+					textColor="black"
 					onChange={ (event, value) => setState({
 						...state,
 						filters: value,
 					}) }
+					sx={ {
+						' button:hover': { backgroundColor: '#d3d3d3' },
+					} }
 				>
 					<Tab label="All"	value="All"sx={ style }/>
 					<Tab label="computerProgramming" value="computerProgramming"	sx={ style }/>

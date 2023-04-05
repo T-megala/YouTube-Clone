@@ -4,7 +4,13 @@ import MicIcon from '@mui/icons-material/Mic';
 
 const VoiceSearch = () =>
 	<Button
-		sx={ { color: 'black' } }
+		sx={ {
+			':hover': {
+				bgcolor: '#d3d3d3',
+			},
+			'borderRadius': '50px ',
+			'color': 'black',
+		} }
 		size="xlarge"
 		startIcon={ <MicIcon/> }
 	/>;
