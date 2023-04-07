@@ -19,7 +19,7 @@ import Shorts from '../components/SideBar/ExtendedSideBar/Shorts/Shorts';
 import Sport from '../components/SideBar/ExtendedSideBar/Sport';
 import Subscriptions from '../components/SideBar/ExtendedSideBar/Subscriptions';
 import Trending from '../components/SideBar/ExtendedSideBar/Trending';
-import Video from '../components/VideoCard/Video';
+import Video from '../components/VideoCard/Video/Video';
 
 const RoutesData = [
 	{

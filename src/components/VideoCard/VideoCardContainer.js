@@ -16,6 +16,9 @@ const VideoCardContainer = (context) => {
 					onClick={ () => setState({
 						...state,
 						selectedId: detail.video,
+						selectedVideo: detail.videoName,
+						selectedChannel: detail.channelName,
+						selectedIcon: detail.icon,
 						history: [...history, detail],
 					}) }
 					to={ `/video${ detail.id }` }
