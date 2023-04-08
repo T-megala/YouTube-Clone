@@ -6,7 +6,7 @@ import Right from './Right';
 const NavBar = (context) =>
 	<div className="navBar">
 		<Left { ...context }/>
-		<Center/>
+		<Center { ...context }/>
 		<Right/>
 	</div>;
 

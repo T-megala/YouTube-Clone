@@ -22,12 +22,13 @@ const FilterContent = (context) => {
 					variant="scrollable"
 					scrollButtons="auto"
 					indicatorColor="white"
-					textColor="black"
+					textColor="inherit"
 					onChange={ (event, value) => setState({
 						...state,
 						filters: value,
 					}) }
 					sx={ {
+						'color': 'black',
 						' button:hover': { backgroundColor: '#d3d3d3' },
 					} }
 				>

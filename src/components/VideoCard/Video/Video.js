@@ -1,3 +1,4 @@
+/* eslint-disable max-lines-per-function */
 import React from 'react';
 import VideoDescription from './VideoDescription';
 
@@ -5,9 +6,12 @@ const Video = (context) => {
 	const { state: { selectedId, selectedVideo }} = context;
 
 	return (
-		<div className="videoContainer">
+		<div
+			className="videoContainer"
+		>
 			<div>
 				<video
+
 					className="video"
 					src={ selectedId }
 					autoPlay={ true }

@@ -11,6 +11,7 @@ const initialState = (context) => {
 		burgerMenu: true,
 		videoDetails: cardDetails,
 		filters: 'All',
+		input: '',
 		history: [],
 	};
 };
@@ -21,8 +22,8 @@ const App = (context) => {
 
 	return (
 		<div className="App">
-			<NavBar { ...context }/>
 			<BrowserRouter>
+				<NavBar { ...extendedContext }/>
 				<Router { ...extendedContext }/>
 			</BrowserRouter>
 		</div>

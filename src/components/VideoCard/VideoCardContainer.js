@@ -11,7 +11,10 @@ const VideoCardContainer = (context) => {
 
 	return <div className="videoCard_container">
 		{filteredContent.map((detail, key) =>
-			<div key={ key } className="videoCard_video">
+			<div
+				key={ key }
+				className="videoCard_video"
+			>
 				<Link
 					onClick={ () => setState({
 						...state,

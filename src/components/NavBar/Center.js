@@ -3,11 +3,11 @@ import SearchBar from './SearchBar';
 import SearchButton from './SearchButton';
 import VoiceSearch from './VoiceSearch';
 
-const Center = () =>
+const Center = (context) =>
 	<div className="nav-Center">
-		<SearchBar/>
-		<SearchButton/>
-		<VoiceSearch/>
+		<SearchBar { ...context }/>
+		<SearchButton { ...context }/>
+		<VoiceSearch { ...context }/>
 	</div>;
 
 export default Center;
