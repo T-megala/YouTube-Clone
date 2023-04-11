@@ -1,14 +1,5 @@
 /* eslint-disable max-len */
 
-const searchText = (context) => {
-	const { state: { search }, config: { cardDetails }} = context;
-
-	return (
-		cardDetails.filter((cardDetail) => cardDetail.category === search)
-
-	);
-};
-
 const filter = {
 	All: ({ config: { cardDetails }}) => cardDetails,
 	videoEditing: ({ config: { cardDetails }, state: { filters }}) =>
@@ -24,7 +15,6 @@ const filter = {
 const sortHistory = ({ state: { history }}) => history.sort((a, b) => b.date - a.date);
 
 const youtubeManager = {
-	searchText,
 	filter,
 	sortHistory,
 };

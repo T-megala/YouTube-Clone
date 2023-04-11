@@ -3,6 +3,7 @@ import './App.scss';
 import { BrowserRouter } from 'react-router-dom';
 import Router from './components/Router';
 import NavBar from './components/NavBar/NavBar';
+import { peek } from '@laufire/utils/debug';
 
 const initialState = (context) => {
 	const { config: { cardDetails }} = context;
@@ -19,6 +20,8 @@ const initialState = (context) => {
 const App = (context) => {
 	const [state, setState] = useState(initialState(context));
 	const extendedContext = { ...context, state, setState };
+
+	peek(state);
 
 	return (
 		<div className="App">

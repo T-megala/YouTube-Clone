@@ -7,7 +7,7 @@ import Thumbnail from './VideoCard/Thumbnail';
 
 const SearchInputs = (context) => {
 	const { config: { cardDetails }, state,
-		setState } = context;
+		setState, state: { history }} = context;
 
 	const { id = '' } = useParams();
 
@@ -24,6 +24,7 @@ const SearchInputs = (context) => {
 					onClick={ () => setState({
 						...state,
 						selectedId: `${ detail.video }`,
+						history: [...history, detail],
 					}) }
 					to={ `/video${ detail.id }` }
 					style={ { textDecoration: 'none', color: 'black' } }
