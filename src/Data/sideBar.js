@@ -1,14 +1,11 @@
 import React from 'react';
 import { HomeOutlined, SubscriptionsOutlined,
 	PlayArrowOutlined, VideoLibraryOutlined,
-	RestoreOutlined, WhatshotOutlined,
-	ShoppingBagOutlined, MusicNoteOutlined,
-	MovieCreationOutlined, SensorsOutlined,
-	SportsEsportsOutlined, FitnessCenterOutlined,
-	NewspaperOutlined, LightbulbOutlined,
+	RestoreOutlined, MusicNoteOutlined,
+	SportsEsportsOutlined, FitnessCenterOutlined, LightbulbOutlined,
 	CheckroomOutlined, AddCircleOutlineOutlined,
 	SettingsOutlined, FlagOutlined,
-	HelpOutlineOutlined, AnnouncementOutlined } from '@mui/icons-material';
+	HelpOutlineOutlined } from '@mui/icons-material';
 
 const sideBar = [
 	{
@@ -32,32 +29,12 @@ const sideBar = [
 		icon: <RestoreOutlined/>,
 	},
 	{
-		text: 'Trending',
-		icon: <WhatshotOutlined/>,
-	},
-	{
-		text: 'Shopping',
-		icon: <ShoppingBagOutlined/>,
-	},
-	{
 		text: 'Music',
 		icon: <MusicNoteOutlined/>,
 	},
 	{
-		text: 'Films',
-		icon: <MovieCreationOutlined/>,
-	},
-	{
-		text: 'Live',
-		icon: <SensorsOutlined/>,
-	},
-	{
 		text: 'Gaming',
 		icon: <SportsEsportsOutlined/>,
-	},
-	{
-		text: 'News',
-		icon: <NewspaperOutlined/>,
 	},
 	{
 		text: 'Sport',
@@ -86,10 +63,6 @@ const sideBar = [
 	{
 		text: 'Help',
 		icon: <HelpOutlineOutlined/>,
-	},
-	{
-		text: 'Send feedback',
-		icon: <AnnouncementOutlined/>,
 	},
 ];
 

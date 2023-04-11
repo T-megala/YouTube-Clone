@@ -2,23 +2,17 @@
 import Home from '../components/SideBar/ExtendedSideBar/Home';
 import BrowseChannels from '../components/SideBar/ExtendedSideBar/BrowseChannels';
 import FashionBeauty from '../components/SideBar/ExtendedSideBar/FashionBeauty';
-import Films from '../components/SideBar/ExtendedSideBar/Films';
 import Gaming from '../components/SideBar/ExtendedSideBar/Gaming/Gaming';
 import Help from '../components/SideBar/ExtendedSideBar/Help';
 import History from '../components/SideBar/ExtendedSideBar/History/History';
 import Learning from '../components/SideBar/ExtendedSideBar/Learning';
 import Library from '../components/SideBar/ExtendedSideBar/Library';
-import Live from '../components/SideBar/ExtendedSideBar/Live';
 import Music from '../components/SideBar/ExtendedSideBar/Music/Music';
-import News from '../components/SideBar/ExtendedSideBar/News';
 import ReportHistory from '../components/SideBar/ExtendedSideBar/ReportHistory';
-import SendFeedback from '../components/SideBar/ExtendedSideBar/SendFeedback';
 import Settings from '../components/SideBar/ExtendedSideBar/Settings';
-import Shopping from '../components/SideBar/ExtendedSideBar/Shopping';
 import Shorts from '../components/SideBar/ExtendedSideBar/Shorts/Shorts';
 import Sport from '../components/SideBar/ExtendedSideBar/Sport';
 import Subscriptions from '../components/SideBar/ExtendedSideBar/Subscriptions';
-import Trending from '../components/SideBar/ExtendedSideBar/Trending';
 import Video from '../components/VideoCard/Video/Video';
 
 const RoutesData = [
@@ -43,32 +37,12 @@ const RoutesData = [
 		element: History,
 	},
 	{
-		path: '/Trending',
-		element: Trending,
-	},
-	{
-		path: '/Shopping',
-		element: Shopping,
-	},
-	{
 		path: '/Music',
 		element: Music,
 	},
 	{
-		path: '/Films',
-		element: Films,
-	},
-	{
-		path: '/Live',
-		element: Live,
-	},
-	{
 		path: '/Gaming',
 		element: Gaming,
-	},
-	{
-		path: '/News',
-		element: News,
 	},
 	{
 		path: '/Sport',
@@ -97,10 +71,6 @@ const RoutesData = [
 	{
 		path: '/Help',
 		element: Help,
-	},
-	{
-		path: '/Send feedback',
-		element: SendFeedback,
 	},
 	{
 		path: '/video123',
