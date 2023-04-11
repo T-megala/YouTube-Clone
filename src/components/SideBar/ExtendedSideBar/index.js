@@ -2,11 +2,11 @@ import React from 'react';
 import sideBar from '../../../Data/sideBar';
 import SideBarLink from '../SideBarLink';
 
-const ExtendedSideBar = () =>
+const ExtendedSideBar = (context) =>
 	<div className="sideBar">
 		{
 			sideBar.map((category, i) =>
-				<SideBarLink key={ i } { ...{ category } }/>)
+				<SideBarLink key={ i } { ...{ category, context } }/>)
 		}
 	</div>;
 

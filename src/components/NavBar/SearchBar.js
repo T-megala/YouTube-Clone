@@ -9,6 +9,7 @@ const SearchBar = (context) => {
 			className="searchBar"
 			placeholder="Search..."
 			size="small"
+			value={ state.input }
 			onChange={ ({ target: { value }}) => setState({
 				...state,
 				input: value,

@@ -198,10 +198,18 @@ left: 10%;
 	gap: 10px;
 	align-items: center;
 }
+.VideoOption{
+	opacity: 0;
+}
+
+.channel:hover>.VideoOption{
+opacity: 1;
+}
 
 .description {
 	display: flex;
 	flex-direction: column;
+	width: 75%;
 
 	.videoName {
 		max-height: 42px;
