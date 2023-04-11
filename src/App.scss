@@ -162,12 +162,24 @@ html {
 
 .carousel {
 	position: relative;
-	border: 1px solid navy;
 	width: 100%;
 	height: 55vh;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+
+.video_carousel {
+	position: relative;
+	height: 60%;
+	width: 90%;
+}
+
+.inner {
+position: absolute;
+top: 20%;
+left: 10%;
 }
 
 .box-1 {
