@@ -4,7 +4,7 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 
 const MusicCarousel = () =>
-	<div className="music_container">
+	<div className="musicContainer">
 		<Carousel
 			autoPlay={ true }
 			className="carousel"

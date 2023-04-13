@@ -8,7 +8,7 @@ const GamingVideos = (context) => {
 	const gamingVideos = cardDetails.filter((detail) =>
 		detail.category === 'Gaming');
 
-	return <div className="gaming_container">
+	return <div className="gamingContainer">
 		{gamingVideos.map((detail, key) =>
 			<div key={ key }>
 				<Link

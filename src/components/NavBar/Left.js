@@ -3,7 +3,7 @@ import BurgerMenu from './BurgerMenu';
 import Logo from './Logo';
 
 const Left = (context) =>
-	<div className="nav-left">
+	<div className="navLeft">
 		<BurgerMenu { ...context }/>
 		<Logo/>
 	</div>;

@@ -13,10 +13,10 @@ const SideBarLink = ({ category, context }) => {
 
 			to={ `/${ category.text === 'Home' ? '' : category.text }` }
 			style={ { textDecoration: 'none', color: 'black' } }
-			className="sideBar_category"
+			className="sideBarCategory"
 		>
-			<span className="sideBar_icon">{category.icon}</span>
-			<span className="sideBar_text">{category.text}</span>
+			<span className="sideBarIcon">{category.icon}</span>
+			<span className="sideBarText">{category.text}</span>
 		</Link>
 	);
 };

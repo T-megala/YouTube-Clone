@@ -11,23 +11,23 @@ html {
 	z-index: 1;
 }
 
-.nav-left:first-child {
+.navLeft:first-child {
 	margin-right: auto;
 }
 
 .navBar,
-.nav-left,
-.nav-Center,
-.nav-Right {
+.navLeft,
+.navCenter,
+.navRight {
 	display: flex;
 	align-items: center;
 }
 
-.nav-Center {
+.navCenter {
 	flex: 0.6;
 }
 
-.nav-Right:last-child {
+.navRight:last-child {
 	margin-right: 20px;
 	margin-left: auto;
 }
@@ -58,16 +58,20 @@ html {
 
 .container,
 .sideBar,
-.sideBar_category {
+.sideBarCategory {
 	display: flex;
 	height: 90vh;
 }
+.sideBar {
+	width: 17%;
+	flex-direction: column;
+	overflow-y: scroll;
+}
 
-.sideBar_category:hover {
+.sideBarCategory:hover {
 	background-Color: #eeeeee9d;
 	border-radius: 10px;
 }
-
 
 .filterContent {
 	position: sticky;
@@ -76,22 +80,16 @@ html {
 	top: 10px;
 }
 
-.sideBar {
-	width: 17%;
-	flex-direction: column;
-	overflow-y: scroll;
-}
-
-.sideBar_category {
+.sideBarCategory {
 	padding: 7px;
 	align-items: center;
 }
 
-.sideBar_icon {
+.sideBarIcon {
 	margin-left: 12px;
 }
 
-.sideBar_text {
+.sideBarText {
 	margin-left: 30px;
 }
 
@@ -107,16 +105,16 @@ html {
 	padding: 16px;
 }
 
-.shrinkBar__icon {
+.shrinkBarIcon {
 	margin-left: 5px;
 }
 
-.shrinkBar__text {
+.shrinkBarText {
 	font-size: small;
 }
 
 .videoCard,
-.videoCard_container {
+.videoCardContainer {
 	display: flex;
 }
 
@@ -127,12 +125,12 @@ html {
 	gap: 40px;
 }
 
-.videoCard_container {
+.videoCardContainer {
 	flex-wrap: wrap;
 	gap: 20px;
 }
 
-.videoCard_video {
+.videoCardVideo {
 	width: 340px;
 }
 
@@ -146,7 +144,7 @@ html {
 	border-radius: 0;
 }
 
-.gaming_container {
+.gamingContainer {
 	display: flex;
 	flex-wrap: wrap;
 	flex: 1;
@@ -155,7 +153,7 @@ html {
 	overflow-y: scroll;
 }
 
-.music_container {
+.musicContainer {
 	display: flex;
 	flex: 1;
 }

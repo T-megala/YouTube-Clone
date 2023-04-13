@@ -1,3 +1,4 @@
+import { peek } from '@laufire/utils/debug';
 import React from 'react';
 import ShortsDescription from './ShortsDescription';
 
@@ -11,6 +12,7 @@ const ShortsVideo = (context) => {
 			autoPlay={ true }
 			loop={ true }
 			controls=""
+			onMouseOver={ (e) => peek(e) }
 		>
 			<source src={ cardDetail.video }/>
 		</video>

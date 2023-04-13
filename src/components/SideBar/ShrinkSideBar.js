@@ -11,8 +11,8 @@ const ShrinkSideBar = () =>
 				style={ { textDecoration: 'none', color: 'black' } }
 				className="shrinkSideBar"
 			>
-				<span className="shrinkBar__icon">{bar.icon}</span>
-				<span className="shrinkBar__text">{bar.text}</span>
+				<span className="shrinkBarIcon">{bar.icon}</span>
+				<span className="shrinkBarText">{bar.text}</span>
 			</Link>)
 	}
 	</div>;

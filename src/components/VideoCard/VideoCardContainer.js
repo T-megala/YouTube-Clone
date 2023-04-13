@@ -9,11 +9,11 @@ const VideoCardContainer = (context) => {
 	const { state: { filters, history }, state, setState } = context;
 	const filteredContent = youtubeManager.filter[filters](context);
 
-	return <div className="videoCard_container">
+	return <div className="videoCardContainer">
 		{filteredContent.map((detail, key) =>
 			<div
 				key={ key }
-				className="videoCard_video"
+				className="videoCardVideo"
 			>
 				<Link
 					onClick={ () => setState({

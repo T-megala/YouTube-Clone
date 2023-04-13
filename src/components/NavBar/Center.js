@@ -4,7 +4,7 @@ import SearchButton from './SearchButton';
 import VoiceSearch from './VoiceSearch';
 
 const Center = (context) =>
-	<div className="nav-Center">
+	<div className="navCenter">
 		<SearchBar { ...context }/>
 		<SearchButton { ...context }/>
 		<VoiceSearch { ...context }/>
