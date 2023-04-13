@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 
-const fashion = [
+const fashionData = [
 	{
 		category: 'Chanel',
 		video: 'https://player.vimeo.com/external/396336975.sd.mp4?s=97193b0befb8a70e7426ac18d3c449d3fbd06639&profile_id=164&oauth2_token_id=57447761',
@@ -18,4 +18,4 @@ const fashion = [
 	},
 ];
 
-export default fashion;
+export default fashionData;

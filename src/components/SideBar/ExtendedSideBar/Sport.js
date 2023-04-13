@@ -1,10 +1,14 @@
 import React from 'react';
 import SideBar from '../SideBar';
+import Banner from './Carousel/Banner';
 
-const Sport = (context) =>
-	<div className="container">
+const Sport = (context) => {
+	const { config: { sportsBanner }} = context;
+
+	return <div className="container">
 		<SideBar { ...context }/>
-		<div>Sport</div>
+		<Banner { ...{ ...context, data: sportsBanner } }/>
 	</div>;
+};
 
 export default Sport;
