@@ -2,7 +2,7 @@ import React from 'react';
 import shorts from '../../../../Data/shorts';
 
 const ShortsOption = () =>
-	<div className="shorts_option">
+	<div className="shortsOptions">
 		{
 			shorts.map((short, i) =>
 				<div
@@ -11,7 +11,7 @@ const ShortsOption = () =>
 						flexDirection: 'column',
 						lineHeight: '25px',
 						width: '53px' } }
-					className="temp"
+					className="shortsOption"
 				>
 					<span style={ { marginLeft: '10px' } }>{short.icon}</span>
 					<span>{short.text}</span>
