@@ -38,16 +38,12 @@ const FilterContent = (context) => {
 					<Tab label="Lifestyle" value="Lifestyle" sx={ style }/>
 					<Tab label="AI" value="AI" sx={ style }/>
 					<Tab label="Gadgets" value="Gadgets"sx={ style }/>
-					<Tab label="Naruto" value="Naruto" sx={ style }/>
 					<Tab label="Podcasts" value="Podcasts" sx={ style }/>
 					<Tab label="News" value="News" sx={ style }/>
-					<Tab label="Business" value="Business" sx={ style }/>
 					<Tab label="videoEditing" value="videoEditing" sx={ style }/>
 					<Tab label="Sales" value="Sales" sx={ style }/>
 					<Tab label="Cinema" value="Cinema"sx={ style }/>
-					<Tab label="Avengers" value="Avengers" sx={ style }/>
 					<Tab label="Anime" value="Anime" sx={ style }/>
-					<Tab label="Attack on Titan" value="Attack on Titan" sx={ style }/>
 				</TabList>
 				<TabPanel value={ filters }>
 					<VideoCardContainer { ...context }/>
