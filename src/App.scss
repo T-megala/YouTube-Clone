@@ -422,3 +422,11 @@ opacity: 1;
 	font-weight: 400;
 	line-height: 3.2rem;
 }
+
+.subscriptionsBody {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
