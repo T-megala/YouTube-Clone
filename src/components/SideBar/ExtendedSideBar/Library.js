@@ -1,10 +1,11 @@
 import React from 'react';
 import SideBar from '../SideBar';
+import LibraryBody from './LibraryBody';
 
 const Library = (context) =>
 	<div className="container">
 		<SideBar { ...context }/>
-		<div>Library</div>
+		<LibraryBody { ...context }/>
 	</div>;
 
 export default Library;

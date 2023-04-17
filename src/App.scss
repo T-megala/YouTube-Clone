@@ -402,3 +402,23 @@ opacity: 1;
 .subsCount {
 	margin-top: 5%;
 }
+
+.libraryBody {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.firstLine {
+	font-size: 2.0rem;
+	font-weight: 400;
+	line-height: 3.2rem;
+}
+
+.secondLine {
+	font-size: 1.0rem;
+	font-weight: 400;
+	line-height: 3.2rem;
+}
