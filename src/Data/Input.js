@@ -6,7 +6,7 @@ const Input = [
 	// Videos
 
 	{
-		img: '/image/9.jpeg',
+		img: thumbnails.v1,
 		video: videoLinks.v1,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Best Youtube Thumbnail of 2022 ',
@@ -17,7 +17,7 @@ const Input = [
 		category: 'videoEditing',
 	},
 	{
-		img: '/image/8.jpeg',
+		img: thumbnails.v2,
 		video: videoLinks.v2,
 		icon: '/channelIcon/1.jpeg',
 		videoName: 'Make Professional Youtube Thumbnail ',
@@ -28,7 +28,7 @@ const Input = [
 		category: 'videoEditing',
 	},
 	{
-		img: '/image/10.jpg',
+		img: thumbnails.v3,
 		video: videoLinks.v3,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Relax your mind',
@@ -39,7 +39,7 @@ const Input = [
 		category: 'Music',
 	},
 	{
-		img: '/image/1.jpeg',
+		img: thumbnails.v4,
 		video: videoLinks.v4,
 		icon: '/channelIcon/1.jpeg',
 		videoName: 'Six ways to Use Time Efficiently',
@@ -50,7 +50,7 @@ const Input = [
 		category: 'Lifestyle',
 	},
 	{
-		img: '/image/12.jpg',
+		img: thumbnails.v5,
 		video: videoLinks.v5,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Natural Beauty',
@@ -61,7 +61,7 @@ const Input = [
 		category: 'Lifestyle',
 	},
 	{
-		img: '/image/3.jpeg',
+		img: thumbnails.v6,
 		video: videoLinks.v6,
 		icon: '/channelIcon/3.jpeg',
 		videoName: 'Master HTML and CSS ',
@@ -72,7 +72,7 @@ const Input = [
 		category: 'computerProgramming',
 	},
 	{
-		img: '/image/4.jpeg',
+		img: thumbnails.v7,
 		video: videoLinks.v7,
 		icon: '/channelIcon/1.jpeg',
 		videoName: 'Evergreen Songs 2022',
@@ -83,7 +83,7 @@ const Input = [
 		category: 'Music',
 	},
 	{
-		img: '/image/7.jpg',
+		img: thumbnails.v6,
 		video: videoLinks.v8,
 		icon: '/channelIcon/3.jpeg',
 		videoName: '10 Best Windows Background',
@@ -94,7 +94,7 @@ const Input = [
 		category: 'computerProgramming',
 	},
 	{
-		img: '/image/11.jpg',
+		img: thumbnails.v9,
 		video: videoLinks.v9,
 		icon: '/channelIcon/3.jpeg',
 		videoName: 'Best Youtube Thumbnail of 2022',
@@ -176,7 +176,7 @@ const Input = [
 
 	// anime
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.anime,
 		video: videoLinks.Anime,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Anime vid',
@@ -187,7 +187,7 @@ const Input = [
 		category: 'Anime',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.anime1,
 		video: videoLinks.Anime1,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Anime vid1',
@@ -198,7 +198,7 @@ const Input = [
 		category: 'Anime',
 	},
 	{
-		img: thumbnails.Anime2,
+		img: thumbnails.anime2,
 		video: videoLinks.Anime2,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Anime vid 2',
@@ -209,7 +209,7 @@ const Input = [
 		category: 'Anime',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.anime3,
 		video: videoLinks.Anime3,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Anime vid 3',
@@ -220,7 +220,7 @@ const Input = [
 		category: 'Anime',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.anime4,
 		video: videoLinks.Anime4,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Anime vid 4',
@@ -231,7 +231,7 @@ const Input = [
 		category: 'Anime',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.anime5,
 		video: videoLinks.Anime5,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Anime vid 5',
@@ -245,7 +245,7 @@ const Input = [
 	// cinema
 
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.cinema,
 		video: videoLinks.Cinema,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Cinema vid 5',
@@ -256,7 +256,7 @@ const Input = [
 		category: 'Cinema',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.cinema1,
 		video: videoLinks.Cinema1,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Cinema vid 5',
@@ -267,7 +267,7 @@ const Input = [
 		category: 'Cinema',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.cinema2,
 		video: videoLinks.Cinema2,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Cinema vid 5',
@@ -278,7 +278,7 @@ const Input = [
 		category: 'Cinema',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.cinema3,
 		video: videoLinks.Cinema3,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Cinema vid 5',
@@ -289,7 +289,7 @@ const Input = [
 		category: 'Cinema',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.cinema4,
 		video: videoLinks.Cinema4,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Cinema vid 5',
@@ -300,7 +300,7 @@ const Input = [
 		category: 'Cinema',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.cinema5,
 		video: videoLinks.Cinema5,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Cinema vid 5',
@@ -314,7 +314,7 @@ const Input = [
 	// sales
 
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.sales,
 		video: videoLinks.Sales,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Sales vid 5',
@@ -325,7 +325,7 @@ const Input = [
 		category: 'Sales',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.sales1,
 		video: videoLinks.Sales1,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Sales vid 1',
@@ -336,7 +336,7 @@ const Input = [
 		category: 'Sales',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.sales2,
 		video: videoLinks.Sales2,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Sales vid 2',
@@ -347,7 +347,7 @@ const Input = [
 		category: 'Sales',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.sales3,
 		video: videoLinks.Sales3,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Sales vid 3',
@@ -358,7 +358,7 @@ const Input = [
 		category: 'Sales',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.sales4,
 		video: videoLinks.Sales4,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Sales vid 4',
@@ -369,7 +369,7 @@ const Input = [
 		category: 'Sales',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.sales5,
 		video: videoLinks.Sales5,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Sales vid 5',
@@ -383,7 +383,7 @@ const Input = [
 	// videoEditing
 
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.videoEditing,
 		video: videoLinks.videoEditing,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'videoEditing vid ',
@@ -394,7 +394,7 @@ const Input = [
 		category: 'videoEditing',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.videoEditing1,
 		video: videoLinks.videoEditing1,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'videoEditing vid 1',
@@ -405,7 +405,7 @@ const Input = [
 		category: 'videoEditing',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.videoEditing2,
 		video: videoLinks.videoEditing2,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'videoEditing vid 2',
@@ -416,7 +416,7 @@ const Input = [
 		category: 'videoEditing',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.videoEditing3,
 		video: videoLinks.videoEditing3,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'videoEditing vid 3',
@@ -427,7 +427,7 @@ const Input = [
 		category: 'videoEditing',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.videoEditing4,
 		video: videoLinks.videoEditing4,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'videoEditing vid 4',
@@ -438,7 +438,7 @@ const Input = [
 		category: 'videoEditing',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.videoEditing5,
 		video: videoLinks.videoEditing5,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'videoEditing vid 5',
@@ -452,7 +452,7 @@ const Input = [
 	// News
 
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.news,
 		video: videoLinks.News,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'News vid ',
@@ -463,7 +463,7 @@ const Input = [
 		category: 'News',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.news1,
 		video: videoLinks.News1,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'News vid 1',
@@ -474,7 +474,7 @@ const Input = [
 		category: 'News',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.news2,
 		video: videoLinks.News2,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'News vid 2',
@@ -485,7 +485,7 @@ const Input = [
 		category: 'News',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.news3,
 		video: videoLinks.News3,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'News vid 3',
@@ -496,7 +496,7 @@ const Input = [
 		category: 'News',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.news4,
 		video: videoLinks.News4,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'News vid 4',
@@ -507,7 +507,7 @@ const Input = [
 		category: 'News',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.news5,
 		video: videoLinks.News5,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'News vid 5',
@@ -521,7 +521,7 @@ const Input = [
 	// Podcasts
 
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.podcast,
 		video: videoLinks.Podcast,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Podcast vid ',
@@ -532,7 +532,7 @@ const Input = [
 		category: 'Podcasts',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.podcast1,
 		video: videoLinks.Podcast1,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Podcasts vid 1',
@@ -543,7 +543,7 @@ const Input = [
 		category: 'Podcasts',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.podcast2,
 		video: videoLinks.Podcast2,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Podcasts vid 2',
@@ -554,7 +554,7 @@ const Input = [
 		category: 'Podcasts',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.podcast3,
 		video: videoLinks.Podcast3,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Podcasts vid 3',
@@ -565,7 +565,7 @@ const Input = [
 		category: 'Podcasts',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.podcast4,
 		video: videoLinks.Podcast4,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Podcasts vid 4',
@@ -576,7 +576,7 @@ const Input = [
 		category: 'Podcasts',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.podcast5,
 		video: videoLinks.Podcast5,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Podcast vid 5',
@@ -590,18 +590,18 @@ const Input = [
 	// Gadgets
 
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.gadgets,
 		video: videoLinks.Gadgets,
 		icon: '/channelIcon/2.jpeg',
-		videoName: 'Podcast vid ',
+		videoName: 'Gadgets vid ',
 		channelName: 'TamilTech',
 		views: '65K views',
 		time: '3.5 year ago',
 		id: 12,
-		category: 'Podcasts',
+		category: 'Gadgets',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.gadgets1,
 		video: videoLinks.Gadgets1,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Gadgets vid 1',
@@ -612,7 +612,7 @@ const Input = [
 		category: 'Gadgets',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.gadgets2,
 		video: videoLinks.Gadgets2,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Gadgets vid 2',
@@ -623,7 +623,7 @@ const Input = [
 		category: 'Gadgets',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.gadgets3,
 		video: videoLinks.Gadgets3,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Gadgets vid 3',
@@ -634,7 +634,7 @@ const Input = [
 		category: 'Gadgets',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.gadgets4,
 		video: videoLinks.Gadgets4,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Gadgets vid 4',
@@ -645,7 +645,7 @@ const Input = [
 		category: 'Gadgets',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.gadgets5,
 		video: videoLinks.Gadgets5,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'Gadgets vid 5',
@@ -659,7 +659,7 @@ const Input = [
 	// AI
 
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.AI,
 		video: videoLinks.AI,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'AI vid ',
@@ -670,7 +670,7 @@ const Input = [
 		category: 'AI',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.AI1,
 		video: videoLinks.AI1,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'AI vid 1',
@@ -681,7 +681,7 @@ const Input = [
 		category: 'AI',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.AI2,
 		video: videoLinks.AI2,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'AI vid 2',
@@ -692,7 +692,7 @@ const Input = [
 		category: 'AI',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.AI3,
 		video: videoLinks.AI3,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'AI vid 3',
@@ -703,7 +703,7 @@ const Input = [
 		category: 'AI',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.AI4,
 		video: videoLinks.AI4,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'AI vid 4',
@@ -714,7 +714,7 @@ const Input = [
 		category: 'AI',
 	},
 	{
-		img: thumbnails.gthumb6,
+		img: thumbnails.AI5,
 		video: videoLinks.AI5,
 		icon: '/channelIcon/2.jpeg',
 		videoName: 'AI vid 5',
