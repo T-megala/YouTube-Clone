@@ -171,18 +171,6 @@ const Input = [
 		category: 'Gaming',
 	},
 
-	{
-		img: thumbnails.gthumb6,
-		video: videoLinks.gaming6,
-		icon: '/channelIcon/2.jpeg',
-		videoName: 'Gaming Techniques',
-		channelName: 'TamilTech',
-		views: '65K views',
-		time: '3.5 year ago',
-		id: 6,
-		category: 'Gaming',
-	},
-
 ];
 
 export default Input;
