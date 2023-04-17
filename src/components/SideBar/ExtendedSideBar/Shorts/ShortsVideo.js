@@ -9,6 +9,7 @@ const ShortsVideo = (context) => {
 		<video
 			muted={ true }
 			autoPlay={ true }
+			loop={ true }
 			controls=""
 		>
 			<source src={ cardDetail.video }/>
