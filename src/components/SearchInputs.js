@@ -17,7 +17,7 @@ const SearchInputs = (context) => {
 
 	return <div className="container">
 		<SideBar { ...context }/>
-		<div className="videoHistory_container">
+		<div className="videoHistoryContainer">
 			{filteredVideo.map((detail, key) =>
 				<Link
 					key={ key }

@@ -10,7 +10,7 @@ const Temp = (context) => {
 	const sortedHistory = youtubeManager.sortHistory(context);
 
 	return (
-		<div className="videoHistory_container">
+		<div className="videoHistoryContainer">
 			{sortedHistory.map((detail, key) =>
 				<Link
 					key={ key }
