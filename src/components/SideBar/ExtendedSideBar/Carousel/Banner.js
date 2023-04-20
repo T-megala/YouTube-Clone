@@ -9,6 +9,9 @@ const Banner = (context) => {
 	return <div className="music_container">
 		<Carousel
 			autoPlay={ true }
+			infiniteLoop={ true }
+			showIndicators={ false }
+			showStatus={ false }
 			className="carousel"
 		>
 			{data.map((ele, i) =>
@@ -20,7 +23,8 @@ const Banner = (context) => {
 						/>
 					</video>
 					<div className="inner">
-						<h1 style={ { color: 'white' } }> Team Dinner at Seashells</h1>
+						<h1 style={ { color: 'white' } }>{ele.text}</h1>
+						<div><h2 style={ { color: 'white' } }>{ele.channel}</h2><span>{ele.views}</span></div>
 					</div>
 				</div>)}
 		</Carousel>
