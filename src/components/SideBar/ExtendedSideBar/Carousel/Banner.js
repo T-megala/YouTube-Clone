@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 const Banner = (context) => {
 	const { data } = context;
 
-	return <div className="music_container">
+	return <div className="musicContainer">
 		<Carousel
 			autoPlay={ true }
 			infiniteLoop={ true }
