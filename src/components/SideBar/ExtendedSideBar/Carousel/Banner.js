@@ -2,13 +2,13 @@
 /* eslint-disable max-lines-per-function */
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
+import CarouselDetails from './CarouselDetails';
 
 const Banner = (context) => {
 	const { data } = context;
 
 	return <div className="musicContainer">
 		<Carousel
-			autoPlay={ true }
 			infiniteLoop={ true }
 			showIndicators={ false }
 			showStatus={ false }
@@ -28,6 +28,7 @@ const Banner = (context) => {
 					</div>
 				</div>)}
 		</Carousel>
+		<CarouselDetails/>
 	</div>;
 };
 
