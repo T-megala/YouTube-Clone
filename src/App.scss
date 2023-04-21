@@ -156,15 +156,42 @@ html {
 .musicContainer {
 	display: flex;
 	flex: 1;
+	overflow-y: scroll;
+	flex-direction: column;
 }
 
 .carousel {
 	position: relative;
 	width: 100%;
-	height: 55vh;
+	height: 65vh;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+.carouselDetails{
+	display: flex;
+	width: 90%;
+	margin-left: 5%;
+	height:35%;
+	align-items: center;
+	background-color: #d3d3d3;
+}
+
+.carouselChannelDetail{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 20px;
+}
+
+.carouselDetailsLeft{
+	display: flex;
+	margin-left: 3%;
+}
+
+.carouselSubscribeButton{
+	margin-left: 63%;
 }
 
 

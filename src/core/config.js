@@ -10,11 +10,6 @@ import gaming from '../Data/gaming';
 import music from '../Data/music';
 import sports from '../Data/sports';
 import tech from '../Data/tech';
-import fashionData from '../Data/carouselData/fashionData';
-import gamingData from '../Data/carouselData/gamingData';
-import learningData from '../Data/carouselData/learningData';
-import musicData from '../Data/carouselData/musicData';
-import sportsData from '../Data/carouselData/sportsData';
 import Input from '../Data/Input';
 
 const config = {
@@ -34,14 +29,6 @@ const config = {
 		'Cinema',
 		'Anime',
 		'Lifestyle',
-	],
-
-	videoMenu: [
-		'Add to Queue',
-		'Save to Watch later',
-		'save to playlist',
-		'Download',
-		'Share',
 	],
 
 	browseCategories: [
@@ -80,29 +67,6 @@ const config = {
 		{
 			title: 'Film and Entertainment',
 			collections: filmAndEnt,
-		},
-	],
-
-	banner: [
-		{
-			title: 'Beauty and Fashion',
-			collections: fashionData,
-		},
-		{
-			title: 'Sports',
-			collections: sportsData,
-		},
-		{
-			title: 'Music',
-			collections: musicData,
-		},
-		{
-			title: 'Gaming',
-			collections: gamingData,
-		},
-		{
-			title: 'Learning',
-			collections: learningData,
 		},
 	],
 
